@@ -6,4 +6,15 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  
+
+  if media && media.length > 0
+    each m in media  
+      div(style = "border: 1px solid black; text-align: center")
+        h3
+          a(href=`/media/${m._id}`) #{m.title}
+        p #{m.description}
+
+  else 
+    div(style = "border: 1px solid black; text-align: center")
+      h3 There was an error loading from database...
+      p The database may be empty

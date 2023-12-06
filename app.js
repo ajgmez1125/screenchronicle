@@ -3,11 +3,16 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const session = require('express-session')
+const mongoose = require('mongoose')
+const passport = require('passport')
+
 
 var indexRouter = require('./routes/homepage');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
+var movieRouter = require('./routes/movie')
 
 var app = express();
 
@@ -20,16 +25,54 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({
+  secret: "secret",
+  resave: false,
+  saveUninitialized: false
+}))
+
+app.use(passport.initialize())
+app.use(passport.session())
+
+mongoose.connect("mongodb://127.0.0.1:27017/screenchronicle")
+const db = mongoose.connection
+
+db.on('error', () => {
+  console.log('Error connecting to database')
+})
+
+db.once('open', () => {
+  console.log('Connected')
+})
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/register', registerRouter);
+app.use('/media', movieRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+const Media = require('./models/media')
+const media = require('./media.json')
+
+//This adds all the stuff from the media.json file into the actual database
+media.movies.forEach((movie) => {
+  let media = new Media({
+    title: movie.title,
+    genres: movie.genres,
+    release_date: movie.release_date,
+    directors: movie.directors,
+    description: movie.description,
+    rating: movie.rating
+  })
+  media.save()
+})
+
 
 // error handler
 app.use(function(err, req, res, next) {

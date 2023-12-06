@@ -4,4 +4,13 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    nav
+      a(href="/") Home
+      br 
+      if loggedIn 
+        a(href="/dashboard") Dashboard 
+      else 
+        a(href="/login") Login 
+        br
+        a(href="Register") Register 
     block content
