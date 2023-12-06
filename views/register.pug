@@ -3,4 +3,13 @@ extends layout
 block content
   h1 Register
   form(method="POST", action="/register")
+    label(for="email") Email: 
+    input(name="email", id="email", type="email")
+    br
+    label(for="username") Username: 
+    input(name="username", id="username", type="username")
+    br
+    label(for="password") Password: 
+    input(name="password", id="password",type="password")
+    br
     input(value="register" type="submit")
