@@ -1,20 +1,16 @@
 extends layout
 
-
-
-
 block content
-  h1= title
-  p Welcome to #{title}
+  h1(style='color: #ffd700;') #{title}
+  p(style='color: #ddd;') Welcome to #{title}
 
   if media && media.length > 0
     each m in media  
-      div(style = "border: 1px solid black; text-align: center")
+      div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
         h3
-          a(href=`/media/${m._id}`) #{m.title}
-        p #{m.description}
-
+          a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
+        p(style='color: #ddd;') #{m.description}
   else 
-    div(style = "border: 1px solid black; text-align: center")
-      h3 There was an error loading from database...
-      p The database may be empty
+    div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
+      h3(style='color: #ffd700;') There was an error loading from the database...
+      p(style='color: #ddd;') The database may be empty

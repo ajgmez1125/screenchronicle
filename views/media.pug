@@ -1,13 +1,14 @@
 extends layout
 
 block content
-  h1 #{media.title}
-  h3 #{media.release_date}
-  p #{media.description}
+  .container
+    h1 #{media.title}
+    h3 #{media.release_date}
+    p #{media.description}
 
-  a(href = '/media/add/watched') Watched 
-  br
-  a(href = '/media/add/watching') Watching 
-  br
-  a(href="/media/add/plantowatch") Plan To Watch
-  br
+    a(href = '/media/add/watched') Watched 
+    br
+    a(href = '/media/add/watching') Watching 
+    br
+    a(href="/media/add/plantowatch") Plan To Watch
+    br

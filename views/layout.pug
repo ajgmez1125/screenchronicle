@@ -6,11 +6,7 @@ html
   body
     nav
       a(href="/") Home
-      br 
-      if loggedIn 
-        a(href="/dashboard") Dashboard 
-      else 
+      div
         a(href="/login") Login 
-        br
-        a(href="Register") Register 
+        a(href="/register") Register 
     block content
