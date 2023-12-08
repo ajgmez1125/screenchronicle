@@ -6,9 +6,9 @@ block content
     h3 #{media.release_date}
     p #{media.description}
 
-    a(href = '/media/add/watched') Watched 
+    a(href = `/media/${media._id}/add/watched`) Watched 
     br
-    a(href = '/media/add/watching') Watching 
+    a(href = `/media/${media._id}/add/watching`) Watching 
     br
-    a(href="/media/add/plantowatch") Plan To Watch
+    a(href= `/media/${media._id}/add/plantowatch`) Plan To Watch
     br

@@ -23,7 +23,7 @@ let userSchema = mongoose.Schema({
         ref: "Media",
         required: false
     },
-    planToWatch: {
+    plantowatch: {
         type: [mongoose.Schema.Types.ObjectId],
         ref: "Media",
         required: false
