@@ -1,316 +1,339 @@
 {
-    "movies": [
-       {
-          "id": 1,
-          "title": "The Matrix",
-          "release_date": "1999-03-31",
-          "genres": [
-             "Sci-Fi",
-             "Action"
-          ],
-          "directors": [
-             "Lana Wachowski",
-             "Lilly Wachowski"
-          ],
-          "description": "A computer hacker learns about the true nature of his reality.",
-          "rating": 8.7
-       },
-       {
-          "id": 2,
-          "title": "Inception",
-          "release_date": "2010-07-16",
-          "genres": [
-             "Action",
-             "Thriller"
-          ],
-          "directors": [
-             "Christopher Nolan"
-          ],
-          "description": "A thief enters the dreams of others to steal their secrets.",
-          "rating": 8.8
-       },
-       {
-          "id": 3,
-          "title": "The Shawshank Redemption",
-          "release_date": "1994-09-23",
-          "genres": [
-             "Drama"
-          ],
-          "directors": [
-             "Frank Darabont"
-          ],
-          "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-          "rating": 9.3
-       },
-       {
-          "id": 4,
-          "title": "Pulp Fiction",
-          "release_date": "1994-10-14",
-          "genres": [
-             "Crime",
-             "Drama"
-          ],
-          "directors": [
-             "Quentin Tarantino"
-          ],
-          "description": "Various interconnected stories of criminals in the Los Angeles underworld.",
-          "rating": 8.9
-       },
-       {
-          "id": 5,
-          "title": "The Dark Knight",
-          "release_date": "2008-07-18",
-          "genres": [
-             "Action",
-             "Crime",
-             "Drama"
-          ],
-          "directors": [
-             "Christopher Nolan"
-          ],
-          "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-          "rating": 9
-       },
-       {
-          "id": 6,
-          "title": "The Godfather",
-          "release_date": "1972-03-24",
-          "genres": [
-             "Crime",
-             "Drama"
-          ],
-          "directors": [
-             "Francis Ford Coppola"
-          ],
-          "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-          "rating": 9.2
-       },
-       {
-          "id": 7,
-          "title": "Forrest Gump",
-          "release_date": "1994-07-06",
-          "genres": [
-             "Drama",
-             "Romance"
-          ],
-          "directors": [
-             "Robert Zemeckis"
-          ],
-          "description": "The presidencies of Kennedy through Carter are seen through the eyes of a mentally disabled man.",
-          "rating": 8.8
-       },
-       {
-          "id": 8,
-          "title": "Fight Club",
-          "release_date": "1999-10-15",
-          "genres": [
-             "Drama"
-          ],
-          "directors": [
-             "David Fincher"
-          ],
-          "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club.",
-          "rating": 8.8
-       },
-       {
-          "id": 9,
-          "title": "Schindler's List",
-          "release_date": "1993-12-15",
-          "genres": [
-             "Biography",
-             "Drama",
-             "History"
-          ],
-          "directors": [
-             "Steven Spielberg"
-          ],
-          "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-          "rating": 8.9
-       },
-       {
-          "id": 10,
-          "title": "The Lord of the Rings: The Fellowship of the Ring",
-          "release_date": "2001-12-19",
-          "genres": [
-             "Action",
-             "Adventure",
-             "Drama"
-          ],
-          "directors": [
-             "Peter Jackson"
-          ],
-          "description": "A young hobbit, Frodo, who has found the One Ring, begins his journey with eight companions to Mount Doom, the only place where the Ring can be destroyed.",
-          "rating": 8.8
-       }
-    ],
-    "tv_shows": [
-       {
-          "id": 1,
-          "title": "Stranger Things",
-          "release_date": "2016-07-15",
-          "genres": [
-             "Drama",
-             "Fantasy",
-             "Horror"
-          ],
-          "creators": [
-             "The Duffer Brothers"
-          ],
-          "description": "A group of kids in a small town uncover supernatural mysteries.",
-          "rating": 8.7,
-          "total_seasons": 4,
-          "total_episodes": 34
-       },
-       {
-          "id": 2,
-          "title": "Game of Thrones",
-          "release_date": "2011-04-17",
-          "genres": [
-             "Drama",
-             "Fantasy",
-             "Adventure"
-          ],
-          "creators": [
-             "David Benioff",
-             "D. B. Weiss"
-          ],
-          "description": "Power struggles among noble families in the mythical land of Westeros.",
-          "rating": 9.3,
-          "total_seasons": 8,
-          "total_episodes": 73
-       },
-       {
-          "id": 3,
-          "title": "Breaking Bad",
-          "release_date": "2008-01-20",
-          "genres": [
-             "Crime",
-             "Drama",
-             "Thriller"
-          ],
-          "creators": [
-             "Vince Gilligan"
-          ],
-          "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student.",
-          "rating": 9.5,
-          "total_seasons": 5,
-          "total_episodes": 62
-       },
-       {
-          "id": 4,
-          "title": "Friends",
-          "release_date": "1994-09-22",
-          "genres": [
-             "Comedy",
-             "Romance"
-          ],
-          "creators": [
-             "David Crane",
-             "Marta Kauffman"
-          ],
-          "description": "Follows the personal and professional lives of six friends living in Manhattan.",
-          "rating": 8.9,
-          "total_seasons": 10,
-          "total_episodes": 236
-       },
-       {
-          "id": 5,
-          "title": "The Simpsons",
-          "release_date": "1989-12-17",
-          "genres": [
-             "Animation",
-             "Comedy"
-          ],
-          "creators": [
-             "Matt Groening"
-          ],
-          "description": "The satiric adventures of a working-class family in the misfit city of Springfield.",
-          "rating": 8.7,
-          "total_seasons": 33,
-          "total_episodes": 703
-       },
-       {
-          "id": 6,
-          "title": "The Office",
-          "release_date": "2005-03-24",
-          "genres": [
-             "Comedy"
-          ],
-          "creators": [
-             "Greg Daniels"
-          ],
-          "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
-          "rating": 8.9,
-          "total_seasons": 9,
-          "total_episodes": 201
-       },
-       {
-          "id": 7,
-          "title": "The Mandalorian",
-          "release_date": "2019-11-12",
-          "genres": [
-             "Action",
-             "Adventure",
-             "Fantasy"
-          ],
-          "creators": [
-             "Jon Favreau"
-          ],
-          "description": "A lone bounty hunter makes his way through the outer reaches of the galaxy.",
-          "rating": 8.8,
-          "total_seasons": 2,
-          "total_episodes": 16
-       },
-       {
-          "id": 8,
-          "title": "Stranger Things",
-          "release_date": "2016-07-15",
-          "genres": [
-             "Drama",
-             "Fantasy",
-             "Horror"
-          ],
-          "creators": [
-             "The Duffer Brothers"
-          ],
-          "description": "A group of kids in a small town uncover supernatural mysteries.",
-          "rating": 8.7,
-          "total_seasons": 4,
-          "total_episodes": 34
-       },
-       {
-          "id": 9,
-          "title": "Black Mirror",
-          "release_date": "2011-12-04",
-          "genres": [
-             "Drama",
-             "Sci-Fi",
-             "Thriller"
-          ],
-          "creators": [
-             "Charlie Brooker"
-          ],
-          "description": "A series of stand-alone dramas that are sharp, suspenseful, satirical tales that explore techno-paranoia.",
-          "rating": 8.8,
-          "total_seasons": 5,
-          "total_episodes": 22
-       },
-       {
-          "id": 10,
-          "title": "The Witcher",
-          "release_date": "2019-12-20",
-          "genres": [
-             "Action",
-             "Adventure",
-             "Drama"
-          ],
-          "creators": [
-             "Lauren Schmidt Hissrich"
-          ],
-          "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-          "rating": 8.2,
-          "total_seasons": 2,
-          "total_episodes": 16
-       }
-    ]
- }
+   "movies": [
+      {
+         "id": 1,
+         "title": "The Matrix",
+         "poster": "https://i.goojara.to/mb_000_445.jpg",
+         "release_date": "1999-03-31",
+         "genres": [
+            "Sci-Fi",
+            "Action"
+         ],
+         "directors": [
+            "Lana Wachowski",
+            "Lilly Wachowski"
+         ],
+         "description": "A computer hacker learns about the true nature of his reality.",
+         "rating": 8.7
+      },
+      {
+         "id": 2,
+         "title": "Inception",
+         "poster": "https://i.goojara.to/mb_002_2088.jpg",
+         "release_date": "2010-07-16",
+         "genres": [
+            "Action",
+            "Thriller"
+         ],
+         "directors": [
+            "Christopher Nolan"
+         ],
+         "description": "A thief enters the dreams of others to steal their secrets.",
+         "rating": 8.8
+      },
+      {
+         "id": 3,
+         "title": "The Shawshank Redemption",
+         "poster": "https://i.goojara.to/mb_000_247.jpg",
+         "release_date": "1994-09-23",
+         "genres": [
+            "Drama"
+         ],
+         "directors": [
+            "Frank Darabont"
+         ],
+         "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+         "rating": 9.3
+      },
+      {
+         "id": 4,
+         "title": "Pulp Fiction",
+         "poster": "https://i.goojara.to/mb_000_250.jpg",
+         "release_date": "1994-10-14",
+         "genres": [
+            "Crime",
+            "Drama"
+         ],
+         "directors": [
+            "Quentin Tarantino"
+         ],
+         "description": "Various interconnected stories of criminals in the Los Angeles underworld.",
+         "rating": 8.9
+      },
+      {
+         "id": 5,
+         "title": "The Dark Knight",
+         "poster": "https://i.goojara.to/mb_000_18.jpg",
+         "release_date": "2008-07-18",
+         "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+         ],
+         "directors": [
+            "Christopher Nolan"
+         ],
+         "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+         "rating": 9
+      },
+      {
+         "id": 6,
+         "title": "The Godfather",
+         "poster": "https://i.goojara.to/mb_000_248.jpg",
+         "release_date": "1972-03-24",
+         "genres": [
+            "Crime",
+            "Drama"
+         ],
+         "directors": [
+            "Francis Ford Coppola"
+         ],
+         "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+         "rating": 9.2
+      },
+      {
+         "id": 7,
+         "title": "Forrest Gump",
+         "poster": "https://i.goojara.to/mb_000_515.jpg",
+         "release_date": "1994-07-06",
+         "genres": [
+            "Drama",
+            "Romance"
+         ],
+         "directors": [
+            "Robert Zemeckis"
+         ],
+         "description": "The presidencies of Kennedy through Carter are seen through the eyes of a mentally disabled man.",
+         "rating": 8.8
+      },
+      {
+         "id": 8,
+         "title": "Fight Club",
+         "poster": "https://i.goojara.to/mb_000_253.jpg",
+         "release_date": "1999-10-15",
+         "genres": [
+            "Drama"
+         ],
+         "directors": [
+            "David Fincher"
+         ],
+         "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club.",
+         "rating": 8.8
+      },
+      {
+         "id": 9,
+         "title": "Schindler's List",
+         "poster": "https://i.goojara.to/mb_000_251.jpg",
+         "release_date": "1993-12-15",
+         "genres": [
+            "Biography",
+            "Drama",
+            "History"
+         ],
+         "directors": [
+            "Steven Spielberg"
+         ],
+         "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+         "rating": 8.9
+      },
+      {
+         "id": 10,
+         "title": "The Lord of the Rings: The Fellowship of the Ring",
+         "poster": "https://i.goojara.to/mb_000_254.jpg",
+         "release_date": "2001-12-19",
+         "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+         ],
+         "directors": [
+            "Peter Jackson"
+         ],
+         "description": "A young hobbit, Frodo, who has found the One Ring, begins his journey with eight companions to Mount Doom, the only place where the Ring can be destroyed.",
+         "rating": 8.8
+      }
+   ],
+   "tv_shows": [
+      {
+         "id": 1,
+         "title": "Stranger Things",
+         "poster": "https://i.goojara.to/tb_100_100202.jpg",
+         "release_date": "2016-07-15",
+         "genres": [
+            "Drama",
+            "Fantasy",
+            "Horror"
+         ],
+         "creators": [
+            "The Duffer Brothers"
+         ],
+         "description": "A group of kids in a small town uncover supernatural mysteries.",
+         "rating": 8.7,
+         "total_seasons": 4,
+         "total_episodes": 34
+      },
+      {
+         "id": 2,
+         "title": "Game of Thrones",
+         "poster": "https://i.goojara.to/tb_002_2417.jpg",
+         "release_date": "2011-04-17",
+         "genres": [
+            "Drama",
+            "Fantasy",
+            "Adventure"
+         ],
+         "creators": [
+            "David Benioff",
+            "D. B. Weiss"
+         ],
+         "description": "Power struggles among noble families in the mythical land of Westeros.",
+         "rating": 9.3,
+         "total_seasons": 8,
+         "total_episodes": 73
+      },
+      {
+         "id": 3,
+         "title": "Breaking Bad",
+         "poster": "https://i.goojara.to/tb_005_5273.jpg",
+         "release_date": "2008-01-20",
+         "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+         ],
+         "creators": [
+            "Vince Gilligan"
+         ],
+         "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student.",
+         "rating": 9.5,
+         "total_seasons": 5,
+         "total_episodes": 62
+      },
+      {
+         "id": 4,
+         "title": "Friends",
+         "poster": "https://i.goojara.to/tb_002_2832.jpg",
+         "release_date": "1994-09-22",
+         "genres": [
+            "Comedy",
+            "Romance"
+         ],
+         "creators": [
+            "David Crane",
+            "Marta Kauffman"
+         ],
+         "description": "Follows the personal and professional lives of six friends living in Manhattan.",
+         "rating": 8.9,
+         "total_seasons": 10,
+         "total_episodes": 236
+      },
+      {
+         "id": 5,
+         "title": "The Simpsons",
+         "poster": "https://i.goojara.to/tb_000_254.jpg",
+         "release_date": "1989-12-17",
+         "genres": [
+            "Animation",
+            "Comedy"
+         ],
+         "creators": [
+            "Matt Groening"
+         ],
+         "description": "The satiric adventures of a working-class family in the misfit city of Springfield.",
+         "rating": 8.7,
+         "total_seasons": 33,
+         "total_episodes": 703
+      },
+      {
+         "id": 6,
+         "title": "The Office",
+         "poster": "https://i.goojara.to/tb_000_794.jpg",
+         "release_date": "2005-03-24",
+         "genres": [
+            "Comedy"
+         ],
+         "creators": [
+            "Greg Daniels"
+         ],
+         "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+         "rating": 8.9,
+         "total_seasons": 9,
+         "total_episodes": 201
+      },
+      {
+         "id": 7,
+         "title": "The Mandalorian",
+         "poster": "https://i.goojara.to/tb_186_186802.jpg",
+         "release_date": "2019-11-12",
+         "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+         ],
+         "creators": [
+            "Jon Favreau"
+         ],
+         "description": "A lone bounty hunter makes his way through the outer reaches of the galaxy.",
+         "rating": 8.8,
+         "total_seasons": 2,
+         "total_episodes": 16
+      },
+      {
+         "id": 8,
+         "title": "Rick and Morty",
+         "poster": "https://i.goojara.to/tb_093_93307.jpg",
+         "release_date": "2013-12-02",
+         "genres": [
+            "Sci-Fi",
+            "Adventure",
+            "Action",
+            "Animation",
+            "Comedy"
+         ],
+         "creators": [
+            "Justin Roiland", 
+            "Dan Harmon"
+         ],
+         "description": "A sociopathic genius scientist who drags his inherently timid grandson on insanely dangerous adventures across the universe",
+         "rating": 9.1,
+         "total_seasons": 7,
+         "total_episodes": 69
+      },
+      {
+         "id": 9,
+         "title": "Black Mirror",
+         "poster": "https://i.goojara.to/tb_009_9289.jpg",
+         "release_date": "2011-12-04",
+         "genres": [
+            "Drama",
+            "Sci-Fi",
+            "Thriller"
+         ],
+         "creators": [
+            "Charlie Brooker"
+         ],
+         "description": "A series of stand-alone dramas that are sharp, suspenseful, satirical tales that explore techno-paranoia.",
+         "rating": 8.8,
+         "total_seasons": 5,
+         "total_episodes": 22
+      },
+      {
+         "id": 10,
+         "title": "The Witcher",
+         "poster": "https://i.goojara.to/tb_187_187608.jpg",
+         "release_date": "2019-12-20",
+         "genres": [
+            "Action",
+            "Adventure",
+            "Drama"
+         ],
+         "creators": [
+            "Lauren Schmidt Hissrich"
+         ],
+         "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+         "rating": 8.2,
+         "total_seasons": 2,
+         "total_episodes": 16
+      }
+   ]
+}
