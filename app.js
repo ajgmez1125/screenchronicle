@@ -13,6 +13,7 @@ var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
 var movieRouter = require('./routes/movie')
+var logoutRouter = require('./routes/logout')
 
 var app = express();
 
@@ -45,12 +46,19 @@ db.once('open', () => {
   console.log('Connected')
 })
 
+app.use((req,res,next) => {
+  res.locals.isAuthenticated = req.isAuthenticated()
+  res.locals.user = req.user
+  next()
+})
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/register', registerRouter);
 app.use('/media', movieRouter);
+app.use('/logout', logoutRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -85,7 +93,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-const port = process.env.PORT || 3000;
+const port = 8000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

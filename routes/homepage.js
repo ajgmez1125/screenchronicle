@@ -4,6 +4,7 @@ var Media = require('../models/media')
 const passport = require('passport')
 
 router.get('/', function(req, res, next) {
+  console.log(req.isAuthenticated())
   let mediaArr = []
   Media.find({})
   .then((media) => {

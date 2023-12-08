@@ -7,6 +7,10 @@ html
     nav
       a(href="/") Home
       div
-        a(href="/login") Login 
-        a(href="/register") Register 
+        if user
+          a(href="/dashboard") Dashboard 
+          a(href="/logout") Logout
+        else 
+          a(href="/login") Login 
+          a(href="/register") Register 
     block content
