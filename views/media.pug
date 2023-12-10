@@ -6,9 +6,21 @@ block content
     h3 #{media.release_date}
     p #{media.description}
 
-    a(href = `/media/${media._id}/add/watched`) Watched 
+    if status != 'watched'
+      a(href = `/media/${media._id}/add/watched`) Watched 
+    else
+      p Watched
     br
-    a(href = `/media/${media._id}/add/watching`) Watching 
+    if status != 'watching'
+      a(href = `/media/${media._id}/add/watching`) Watching 
+    else 
+      p Watching
     br
-    a(href= `/media/${media._id}/add/plantowatch`) Plan To Watch
+    if status != 'plantowatch'
+      a(href= `/media/${media._id}/add/plantowatch`) Plan To Watch
+    else 
+      p Plan To Watch
+    br
+    if status != null
+      a(href= `/media/${media._id}/remove`) Remove
     br

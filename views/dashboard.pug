@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  h1(style='color: #ffd700;') #{title}
+  p(style='color: #ddd;') Welcome to #{title}
+
+    h2 Watched
+    if watched && watched.length > 0
+        each m in watched   
+            div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                h3
+                    a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
+                p(style='color: #ddd;') #{m.description}
+    else 
+        div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
+            h3(style='color: #ffd700;') Nothing here
+
+    h2 Watching
+    if watching && watching.length > 0
+        each m in watching 
+            div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                h3
+                    a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
+                p(style='color: #ddd;') #{m.description}
+    else 
+        div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
+            h3(style='color: #ffd700;') Nothing here
+
+    h2 Plan To Watch
+    if plantowatch && plantowatch.length > 0
+        each m in plantowatch  
+            div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                h3
+                    a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
+                p(style='color: #ddd;') #{m.description}
+    else 
+        div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
+            h3(style='color: #ffd700;') Nothing here
