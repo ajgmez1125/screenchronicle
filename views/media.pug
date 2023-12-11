@@ -12,3 +12,24 @@ block content
     br
     a(href= `/media/${media._id}/add/plantowatch`) Plan To Watch
     br
+    br
+    h2 Reviews:
+    
+    if reviews.length > 0
+      ul 
+        each review in reviews 
+          li= review.reviewString 
+    else
+      p No reviews available.
+    
+    if isAuthenticated 
+      form(action=`/media/${media._id}/addReview`, method='post')
+        label(for='reviewString') Review: 
+        textarea(name='reviewString', rows='4', cols='50', required)
+        br
+        label(for='rating') Rating (1-5):
+        input(type='number', name='rating', min='1', max='5', required)
+        br
+        button(type='submit') Add Review 
+    else 
+      p You need to be logged in to add a review.
