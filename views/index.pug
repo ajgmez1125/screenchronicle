@@ -2,16 +2,10 @@ extends layout
 
 block content
   h1(style='color: #ffd700;') #{title}
-  p(style='color: #ddd;') Welcome to #{title}
 
-  if media && media.length > 0
+  .media-container
     each m in media  
-      div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
-        img(style="padding-top: 20px;" src=m.poster, alt='poster')
+      .media-card(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+        img(style="padding-top: 20px; max-width: 100%; height: auto;" src=m.poster, alt='poster')
         h3
           a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
-        //- p(style='color: #ddd;') #{m.description}
-  else 
-    div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
-      h3(style='color: #ffd700;') There was an error loading from the database...
-      p(style='color: #ddd;') The database may be empty

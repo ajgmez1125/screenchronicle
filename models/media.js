@@ -29,7 +29,11 @@ let mediaSchema = mongoose.Schema({
         type: Number,
         required: false
     },
-    seasons: {
+    total_seasons: {
+        type: Number,
+        required: false
+    },
+    total_episodes: {
         type: Number,
         required: false
     }

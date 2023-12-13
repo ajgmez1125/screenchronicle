@@ -6,6 +6,11 @@ let reviewSchema = mongoose.Schema({
         ref: 'User',
         required: true
     },
+    media: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Media',
+        required: true
+    },
     reviewString: {
         type: String,
         required: true

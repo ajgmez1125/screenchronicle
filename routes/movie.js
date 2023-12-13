@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var Media = require('../models/media')
+var Review = require('../models/review')
 var mongoose = require('mongoose')
 var User = require('../models/user');
 const user = require('../models/user');
@@ -25,11 +26,41 @@ router.get('/:id', (req, res) => {
                 status = 'plantowatch'
             }
         }
-        res.render('media', {media: media, status: status})
+        Review.find({media:{$eq: media._id}})
+        .then((reviews)=>{
+            res.render('media', {media: media, status: status, reviews: reviews});
+        })
     })
     .catch((err) => {
         res.send(err.message)
     })
+});
+
+router.post('/:id/addReview', (req, res) => {
+    if (req.isAuthenticated()) {
+        Media.findById(req.params.id)
+            .then((media) => {
+                console.log('found media');
+                const newReview = new Review({
+                    reviewString: req.body.reviewString,
+                    rating: req.body.rating,
+                    user: req.user,
+                    media: media,
+                });
+                newReview.save()
+    .then(() => {
+        res.redirect(`/media/${req.params.id}`);
+    })
+    .catch((err) => {
+        res.send(err.message);
+    });
+            })
+            .catch((err) => {
+                res.send(err.message);
+            });
+    } else {
+        res.send('You are not logged in');
+    }
 });
 
 router.get('/:id/add/:progress', (req,res) => {

@@ -81,7 +81,9 @@ Media.find({})
         release_date: movie.release_date,
         directors: movie.directors,
         description: movie.description,
-        rating: movie.rating
+        rating: movie.rating,
+        total_seasons: movie.total_seasons,
+        total_episodes: movie.total_episodes
       })
       media.save()
     })    

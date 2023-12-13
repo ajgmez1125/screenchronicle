@@ -1,1905 +1,2631 @@
 {
    "movies": [
-      {
-         "id": 1,
-         "title": "The Matrix",
-         "poster": "https://i.goojara.to/mb_000_445.jpg",
-         "release_date": "1999-03-31",
-         "genres": [
-            "Sci-Fi",
-            "Action"
-         ],
-         "directors": [
-            "Lana Wachowski",
-            "Lilly Wachowski"
-         ],
-         "description": "A computer hacker learns about the true nature of his reality.",
-         "rating": 8.7
-      },
-      {
-         "id": 2,
-         "title": "Inception",
-         "poster": "https://i.goojara.to/mb_002_2088.jpg",
-         "release_date": "2010-07-16",
-         "genres": [
-            "Action",
-            "Thriller"
-         ],
-         "directors": [
-            "Christopher Nolan"
-         ],
-         "description": "A thief enters the dreams of others to steal their secrets.",
-         "rating": 8.8
-      },
-      {
-         "id": 3,
-         "title": "The Shawshank Redemption",
-         "poster": "https://i.goojara.to/mb_000_247.jpg",
-         "release_date": "1994-09-23",
-         "genres": [
-            "Drama"
-         ],
-         "directors": [
-            "Frank Darabont"
-         ],
-         "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-         "rating": 9.3
-      },
-      {
-         "id": 4,
-         "title": "Pulp Fiction",
-         "poster": "https://i.goojara.to/mb_000_250.jpg",
-         "release_date": "1994-10-14",
-         "genres": [
-            "Crime",
-            "Drama"
-         ],
-         "directors": [
-            "Quentin Tarantino"
-         ],
-         "description": "Various interconnected stories of criminals in the Los Angeles underworld.",
-         "rating": 8.9
-      },
-      {
-         "id": 5,
-         "title": "The Dark Knight",
-         "poster": "https://i.goojara.to/mb_000_18.jpg",
-         "release_date": "2008-07-18",
-         "genres": [
-            "Action",
-            "Crime",
-            "Drama"
-         ],
-         "directors": [
-            "Christopher Nolan"
-         ],
-         "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-         "rating": 9
-      },
-      {
-         "id": 6,
-         "title": "The Godfather",
-         "poster": "https://i.goojara.to/mb_000_248.jpg",
-         "release_date": "1972-03-24",
-         "genres": [
-            "Crime",
-            "Drama"
-         ],
-         "directors": [
-            "Francis Ford Coppola"
-         ],
-         "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-         "rating": 9.2
-      },
-      {
-         "id": 7,
-         "title": "Forrest Gump",
-         "poster": "https://i.goojara.to/mb_000_515.jpg",
-         "release_date": "1994-07-06",
-         "genres": [
-            "Drama",
-            "Romance"
-         ],
-         "directors": [
-            "Robert Zemeckis"
-         ],
-         "description": "The presidencies of Kennedy through Carter are seen through the eyes of a mentally disabled man.",
-         "rating": 8.8
-      },
-      {
-         "id": 8,
-         "title": "Fight Club",
-         "poster": "https://i.goojara.to/mb_000_253.jpg",
-         "release_date": "1999-10-15",
-         "genres": [
-            "Drama"
-         ],
-         "directors": [
-            "David Fincher"
-         ],
-         "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club.",
-         "rating": 8.8
-      },
-      {
-         "id": 9,
-         "title": "Schindler's List",
-         "poster": "https://i.goojara.to/mb_000_251.jpg",
-         "release_date": "1993-12-15",
-         "genres": [
-            "Biography",
-            "Drama",
-            "History"
-         ],
-         "directors": [
-            "Steven Spielberg"
-         ],
-         "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-         "rating": 8.9
-      },
-      {
-         "id": 10,
-         "title": "The Lord of the Rings: The Fellowship of the Ring",
-         "poster": "https://i.goojara.to/mb_000_254.jpg",
-         "release_date": "2001-12-19",
-         "genres": [
-            "Action",
-            "Adventure",
-            "Drama"
-         ],
-         "directors": [
-            "Peter Jackson"
-         ],
-         "description": "A young hobbit, Frodo, who has found the One Ring, begins his journey with eight companions to Mount Doom, the only place where the Ring can be destroyed.",
-         "rating": 8.8
-      },{
-         "id": 11,
-         "title": "The Silence of the Lambs",
-         "poster": "https://i.goojara.to/mb_000_337.jpg",
-         "release_date": "1991-02-14",
-         "genres": ["Crime", "Drama", "Thriller"],
-         "directors": ["Jonathan Demme"],
-         "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
-         "rating": 8.6
-       },
-       {
-         "id": 12,
-         "title": "The Shining",
-         "poster": "https://i.goojara.to/mb_002_2035.jpg",
-         "release_date": "1980-05-23",
-         "genres": ["Drama", "Horror"],
-         "directors": ["Stanley Kubrick"],
-         "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
-         "rating": 8.4
-       },
-       {
-         "id": 13,
-         "title": "The Departed",
-         "poster": "https://i.goojara.to/mb_000_257.jpg",
-         "release_date": "2006-10-06",
-         "genres": ["Crime", "Drama", "Thriller"],
-         "directors": ["Martin Scorsese"],
-         "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
-         "rating": 8.5
-       },
-       {
-         "id": 14,
-         "title": "Inglourious Basterds",
-         "poster": "https://i.goojara.to/mb_000_67.jpg",
-         "release_date": "2009-08-21",
-         "genres": ["Adventure", "Drama", "War"],
-         "directors": ["Quentin Tarantino"],
-         "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
-         "rating": 8.3
-       },
-       {
-         "id": 15,
-         "title": "The Usual Suspects",
-         "poster": "https://i.goojara.to/mb_000_255.jpg",
-         "release_date": "1995-09-15",
-         "genres": ["Crime", "Mystery", "Thriller"],
-         "directors": ["Bryan Singer"],
-         "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
-         "rating": 8.5
-       },    {
-         "id": 16,
-         "title": "The Grand Budapest Hotel",
-         "poster": "https://i.goojara.to/mb_216_216750.jpg",
-         "release_date": "2014-02-26",
-         "genres": ["Adventure", "Comedy", "Crime"],
-         "directors": ["Wes Anderson"],
-         "description": "A hotel concierge and his protégé become involved in the theft and recovery of a priceless Renaissance painting.",
-         "rating": 8.1
-       },
-       {
-         "id": 17,
-         "title": "The Pianist",
-         "poster": "https://i.goojara.to/mb_000_259.jpg",
-         "release_date": "2002-09-02",
-         "genres": ["Biography", "Drama", "Music"],
-         "directors": ["Roman Polanski"],
-         "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto in World War II.",
-         "rating": 8.5
-       },
-       {
-         "id": 18,
-         "title": "The Social Network",
-         "poster": "https://i.goojara.to/mb_003_3724.jpg",
-         "release_date": "2010-10-01",
-         "genres": ["Biography", "Drama"],
-         "directors": ["David Fincher"],
-         "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
-         "rating": 7.7
-       },
-       {
-         "id": 19,
-         "title": "Memento",
-         "poster": "https://i.goojara.to/mb_000_449.jpg",
-         "release_date": "2001-09-05",
-         "genres": ["Mystery", "Thriller"],
-         "directors": ["Christopher Nolan"],
-         "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
-         "rating": 8.4
-       },
-       {
-         "id": 20,
-         "title": "The Green Mile",
-         "poster": "https://i.goojara.to/mb_001_1080.jpg",
-         "release_date": "1999-12-10",
-         "genres": ["Crime", "Drama", "Fantasy"],
-         "directors": ["Frank Darabont"],
-         "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
-         "rating": 8.6
-       },    {
-         "id": 21,
-         "title": "Dune",
-         "poster": "https://i.goojara.to/mb_227_227346.jpg",
-         "release_date": "2021-10-21",
-         "genres": ["Action", "Adventure", "Drama"],
-         "directors": ["Denis Villeneuve"],
-         "description": "Paul Atreides, a brilliant and gifted young man, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
-         "rating": 8.3
-       },
-       {
-         "id": 22,
-         "title": "No Time to Die",
-         "poster": "https://i.goojara.to/mb_227_227388.jpg",
-         "release_date": "2021-09-28",
-         "genres": ["Action", "Adventure", "Thriller"],
-         "directors": ["Cary Joji Fukunaga"],
-         "description": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
-         "rating": 7.5
-       },
-       {
-         "id": 23,
-         "title": "Shang-Chi and the Legend of the Ten Rings",
-         "poster": "https://i.goojara.to/mb_227_227389.jpg",
-         "release_date": "2021-09-02",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["Destin Daniel Cretton"],
-         "description": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
-         "rating": 7.8
-       },
-       {
-         "id": 24,
-         "title": "A Quiet Place Part II",
-         "poster": "https://i.goojara.to/mb_226_226998.jpg",
-         "release_date": "2021-05-28",
-         "genres": ["Drama", "Horror", "Sci-Fi"],
-         "directors": ["John Krasinski"],
-         "description": "Following the events at home, the Abbott family now faces the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
-         "rating": 7.4
-       },
-       {
-         "id": 25,
-         "title": "Black Widow",
-         "poster": "https://i.goojara.to/mb_227_227035.jpg",
-         "release_date": "2021-07-07",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "directors": ["Cate Shortland"],
-         "description": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-         "rating": 7.3
-       },    {
-         "id": 26,
-         "title": "Spider-Man: No Way Home",
-         "poster": "https://i.goojara.to/mb_227_227557.jpg",
-         "release_date": "2021-12-17",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["Jon Watts"],
-         "description": "Spider-Man's identity is revealed, and he seeks help from Doctor Strange. However, things take an unexpected turn, and Peter Parker finds himself dealing with villains from different realities.",
-         "rating": 8.7
-       },
-       {
-         "id": 27,
-         "title": "The Batman",
-         "poster": "https://i.goojara.to/mb_227_227770.jpg",
-         "release_date": "2022-03-04",
-         "genres": ["Action", "Crime", "Drama"],
-         "directors": ["Matt Reeves"],
-         "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his family while facing a serial killer known as the Riddler.",
-         "rating": 8.4
-       },
-       {
-         "id": 28,
-         "title": "Shazam!",
-         "poster": "https://i.goojara.to/mb_223_223185.jpg",
-         "release_date": "2019-04-05",
-         "genres": ["Action", "Adventure", "Comedy"],
-         "directors": ["David F. Sandberg"],
-         "description": "A teenage foster child turns into an adult superhero by uttering the magic word 'Shazam!' He must learn to control his newfound powers and face the evil Dr. Thaddeus Sivana.",
-         "rating": 7.1
-       },
-       {
-         "id": 29,
-         "title": "Avengers: Endgame",
-         "poster": "https://i.goojara.to/mb_223_223280.jpg",
-         "release_date": "2019-04-26",
-         "genres": ["Action", "Adventure", "Drama"],
-         "directors": ["Anthony Russo", "Joe Russo"],
-         "description": "The Avengers take one final stand against the powerful Thanos in the epic conclusion to the Infinity Saga.",
-         "rating": 8.4
-       },
-       {
-         "id": 30,
-         "title": "Wonder Woman 1984",
-         "poster": "https://i.goojara.to/mb_226_226314.jpg",
-         "release_date": "2020-12-25",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["Patty Jenkins"],
-         "description": "Diana Prince must contend with a new threat, the charismatic businessman Maxwell Lord, and the mysterious Cheetah, while dealing with the return of her lost love, Steve Trevor.",
-         "rating": 5.4
-       },    {
-         "id": 31,
-         "title": "Doctor Strange in the Multiverse of Madness",
-         "poster": "https://i.goojara.to/mb_227_227986.jpg",
-         "release_date": "2022-03-25",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["Sam Raimi"],
-         "description": "Doctor Strange faces dark forces while dealing with the consequences of tampering with the multiverse.",
-         "rating": 8.5
-       },
-       {
-         "id": 32,
-         "title": "Aquaman",
-         "poster": "https://i.goojara.to/mb_222_222518.jpg",
-         "release_date": "2018-12-21",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["James Wan"],
-         "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, must step forward to lead his people and be a hero to the world.",
-         "rating": 6.9
-       },
-       {
-         "id": 33,
-         "title": "Guardians of the Galaxy Vol. 2",
-         "poster": "https://i.goojara.to/mb_219_219190.jpg",
-         "release_date": "2017-05-05",
-         "genres": ["Action", "Adventure", "Comedy"],
-         "directors": ["James Gunn"],
-         "description": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
-         "rating": 7.6
-       },
-       {
-         "id": 34,
-         "title": "Black Panther",
-         "poster": "https://i.goojara.to/mb_220_220527.jpg",
-         "release_date": "2018-02-16",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "directors": ["Ryan Coogler"],
-         "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
-         "rating": 7.3
-       },
-       {
-         "id": 35,
-         "title": "Deadpool",
-         "poster": "https://i.goojara.to/mb_217_217929.jpg",
-         "release_date": "2016-02-12",
-         "genres": ["Action", "Adventure", "Comedy"],
-         "directors": ["Tim Miller"],
-         "description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
-         "rating": 8.0
-       },
-       {
-         "id": 36,
-         "title": "Venom",
-         "poster": "https://i.goojara.to/mb_222_222010.jpg",
-         "release_date": "2018-10-05",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "directors": ["Ruben Fleischer"],
-         "description": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
-         "rating": 6.7
-       },
-       {
-         "id": 37,
-         "title": "Thor: Ragnarok",
-         "poster": "https://i.goojara.to/mb_220_220184.jpg",
-         "release_date": "2017-11-03",
-         "genres": ["Action", "Adventure", "Comedy"],
-         "directors": ["Taika Waititi"],
-         "description": "Thor is imprisoned on the planet Sakaar and must race against time to return to Asgard and stop Ragnarok, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
-         "rating": 7.9
-       },
-       {
-         "id": 38,
-         "title": "Captain Marvel",
-         "poster": "https://i.goojara.to/mb_223_223033.jpg",
-         "release_date": "2019-03-08",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "directors": ["Anna Boden", "Ryan Fleck"],
-         "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-         "rating": 6.8
-       },
-       {
-         "id": 39,
-         "title": "Wonder Woman",
-         "poster": "https://i.goojara.to/mb_219_219379.jpg",
-         "release_date": "2017-06-02",
-         "genres": ["Action", "Adventure", "Fantasy"],
-         "directors": ["Patty Jenkins"],
-         "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-         "rating": 7.4
-       },
-       {
-         "id": 40,
-         "title": "Ant-Man and The Wasp",
-         "poster": "https://i.goojara.to/mb_221_221473.jpg",
-         "release_date": "2018-07-06",
-         "genres": ["Action", "Adventure", "Comedy"],
-         "directors": ["Peyton Reed"],
-         "description": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
-         "rating": 7.1
-       },        
-       {
-         "id": 41,
-         "title": "The Banker",
-         "poster": "https://i.goojara.to/mb_225_225127.jpg",
-         "release_date": "2020-03-06",
-         "genres": ["Biography", "Drama"],
-         "directors": ["George Nolfi"],
-         "description": "In the 1960s, two African American entrepreneurs hire a working-class white man to pretend to be the head of their business empire while they pose as a janitor and chauffeur.",
-         "rating": 7.3
-       },
-       {
-         "id": 42,
-         "title": "Braveheart",
-         "poster": "https://i.goojara.to/mb_000_286.jpg",
-         "release_date": "1995-05-24",
-         "genres": ["Biography", "Drama", "History"],
-         "directors": ["Mel Gibson"],
-         "description": "Scottish warrior William Wallace leads a rebellion against the oppressive English rule.",
-         "rating": 8.3
-       },
-       {
-         "id": 43,
-         "title": "The Imitation Game",
-         "poster": "https://i.goojara.to/mb_216_216901.jpg",
-         "release_date": "2014-11-28",
-         "genres": ["Biography", "Drama", "Thriller"],
-         "directors": ["Morten Tyldum"],
-         "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
-         "rating": 8.0
-       },
-       {
-         "id": 44,
-         "title": "The Notebook",
-         "poster": "https://i.goojara.to/mb_000_956.jpg",
-         "release_date": "2004-06-25",
-         "genres": ["Drama", "Romance"],
-         "directors": ["Nick Cassavetes"],
-         "description": "A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.",
-         "rating": 7.8
-       },
-       {
-         "id": 45,
-         "title": "Pride and Prejudice",
-         "poster": "https://i.goojara.to/mb_000_295.jpg",
-         "release_date": "2005-11-23",
-         "genres": ["Drama", "Romance"],
-         "directors": ["Joe Wright"],
-         "description": "Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class.",
-         "rating": 7.8
-       },
-       {
-         "id": 46,
-         "title": "Mad Max: Fury Road",
-         "poster": "https://i.goojara.to/mb_217_217361.jpg",
-         "release_date": "2015-05-15",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "directors": ["George Miller"],
-         "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman, Furiosa, to try and survive.",
-         "rating": 8.1
-       },
-       {
-         "id": 47,
-         "title": "John Wick",
-         "poster": "https://i.goojara.to/mb_216_216988.jpg",
-         "release_date": "2014-10-24",
-         "genres": ["Action", "Crime", "Thriller"],
-         "directors": ["Chad Stahelski", "David Leitch"],
-         "description": "An ex-hitman seeks vengeance for the killing of his dog, a gift from his deceased wife.",
-         "rating": 7.4
-       },
-       {
-         "id": 48,
-         "title": "Die Hard",
-         "poster": "https://i.goojara.to/mb_001_1850.jpg",
-         "release_date": "1988-07-15",
-         "genres": ["Action", "Thriller"],
-         "directors": ["John McTiernan"],
-         "description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
-         "rating": 8.2
-       },
-       {
-         "id": 49,
-         "title": "The Dark Knight Rises",
-         "poster": "https://i.goojara.to/mb_201_201726.jpg",
-         "release_date": "2012-07-20",
-         "genres": ["Action", "Adventure", "Thriller"],
-         "directors": ["Christopher Nolan"],
-         "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
-         "rating": 8.4
-       },
-       {
-         "id": 50,
-         "title": "Dumb and Dumber",
-         "poster": "https://i.goojara.to/mb_002_2461.jpg",
-         "release_date": "1994-12-16",
-         "genres": ["Comedy"],
-         "directors": ["Peter Farrelly", "Bobby Farrelly"],
-         "description": "The cross-country adventures of two good-hearted but incredibly stupid friends.",
-         "rating": 7.3
-       },    
-       {
-        "id": 51,
-        "title": "John Wick: Chapter 2",
-        "poster": "https://i.goojara.to/mb_218_218975.jpg",
-        "release_date": "2017-02-10",
-        "genres": ["Action", "Crime", "Thriller"],
-        "directors": ["Chad Stahelski"],
-        "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
-        "rating": 7.5
-      },
-      {
-        "id": 52,
-        "title": "John Wick: Chapter 3 - Parabellum",
-        "poster": "https://i.goojara.to/mb_223_223474.jpg",
-        "release_date": "2019-05-17",
-        "genres": ["Action", "Crime", "Thriller"],
-        "directors": ["Chad Stahelski"],
-        "description": "Super-assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head, he is the target of hitmen and women everywhere.",
-        "rating": 7.4
-      },    
-      {
-        "id": 53,
-        "title": "Dumb and Dumberer: When Harry Met Lloyd",
-        "poster": "https://i.goojara.to/mb_008_8878.jpg",
-        "release_date": "2003-06-13",
-        "genres": ["Comedy"],
-        "directors": ["Troy Miller"],
-        "description": "The incredibly true adventure of two friends from completely different worlds who inadvertently start the ultimate 'dude band.",
-        "rating": 3.4
-      },
-      {
-        "id": 54,
-        "title": "Dumb and Dumber To",
-        "poster": "https://i.goojara.to/mb_216_216872.jpg",
-        "release_date": "2014-11-14",
-        "genres": ["Adventure", "Comedy"],
-        "directors": ["Bobby Farrelly", "Peter Farrelly"],
-        "description": "Twenty years since their first adventure, Lloyd and Harry go on a road trip to find Harry's newly discovered daughter, who was given up for adoption.",
-        "rating": 5.6
-      },
-      {
-        "id": 55,
-        "title": "Batman Begins",
-        "poster": "https://i.goojara.to/mb_000_269.jpg",
-        "release_date": "2005-06-15",
-        "genres": ["Action", "Adventure"],
-        "directors": ["Christopher Nolan"],
-        "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-        "rating": 8.2
-      },
-      {
-        "id": 56,
-        "title": "Avatar: The Way of Water",
-        "poster": "https://i.goojara.to/mb_228_228643.jpg",
-        "release_date": "2022-12-16",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["James Cameron"],
-        "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.        ",
-        "rating": 7.6
-      },
-      {
-        "id": 57,
-        "title": "Mad Max",
-        "poster": "https://i.goojara.to/mb_008_8340.jpg",
-        "release_date": "1979-04-12",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["George Miller"],
-        "description": "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
-        "rating": 6.9
-      },
-      {
-        "id": 58,
-        "title": "Mad Max 2: The Road Warrior",
-        "poster": "https://i.goojara.to/mb_008_8436.jpg",
-        "release_date": "1981-12-24",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["George Miller"],
-        "description": "In the post-apocalyptic Australian wasteland, a cynical drifter agrees to help a small, gasoline-rich community escape a horde of bandits.",
-        "rating": 7.6
-      },
-      {
-        "id": 59,
-        "title": "Mad Max Beyond Thunderdome",
-        "poster": "https://i.goojara.to/mb_003_3389.jpg",
-        "release_date": "1985-07-10",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["George Miller", "George Ogilvie"],
-        "description": "After being exiled from the most advanced town in post-apocalyptic Australia, a drifter travels with a group of abandoned children to rebel against the town's queen.",
-        "rating": 6.3
-      },
-      {
-        "id": 60,
-        "title": "The Hunger Games",
-        "poster": "https://i.goojara.to/mb_201_201598.jpg",
-        "release_date": "2012-03-23",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Gary Ross"],
-        "description": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
-        "rating": 7.2
-      },
-      {
-        "id": 61,
-        "title": "The Hunger Games: Catching Fire",
-        "poster": "https://i.goojara.to/mb_209_209490.jpg",
-        "release_date": "2013-11-22",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Francis Lawrence"],
-        "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
-        "rating": 7.5
-      },
-      {
-        "id": 62,
-        "title": "The Hunger Games: Mockingjay - Part 1",
-        "poster": "https://i.goojara.to/mb_216_216838.jpg",
-        "release_date": "2014-11-21",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Francis Lawrence"],
-        "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
-        "rating": 6.6
-      },
-      {
-        "id": 63,
-        "title": "The Hunger Games: Mockingjay - Part 2",
-        "poster": "https://i.goojara.to/mb_217_217805.jpg",
-        "release_date": "2015-11-20",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Francis Lawrence"],
-        "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
-        "rating": 6.5
-      },
-      {
-        "id": 64,
-        "title": "Iron Man",
-        "poster": "https://i.goojara.to/mb_000_19.jpg",
-        "release_date": "2008-05-02",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Jon Favreau"],
-        "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight against evil.",
-        "rating": 7.9
-      },
-      {
-        "id": 65,
-        "title": "Iron Man 2",
-        "poster": "https://i.goojara.to/mb_000_59.jpg",
-        "release_date": "2010-05-07",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Jon Favreau"],
-        "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
-        "rating": 7.0
-      },
-      {
-        "id": 66,
-        "title": "Iron Man 3",
-        "poster": "https://i.goojara.to/mb_209_209487.jpg",
-        "release_date": "2013-05-03",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Shane Black"],
-        "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-        "rating": 7.2
-      },
-      {
-        "id": 67,
-        "title": "Thor",
-        "poster": "https://i.goojara.to/mb_005_5767.jpg",
-        "release_date": "2011-05-06",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["Kenneth Branagh"],
-        "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-        "rating": 7.0
-      },
-      {
-        "id": 68,
-        "title": "Thor: The Dark World",
-        "poster": "https://i.goojara.to/mb_209_209499.jpg",
-        "release_date": "2013-11-08",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["Alan Taylor"],
-        "description": "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
-        "rating": 6.9
-      },
-      {
-        "id": 70,
-        "title": "The Avengers",
-        "poster": "https://i.goojara.to/mb_201_201627.jpg",
-        "release_date": "2012-05-04",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Joss Whedon"],
-        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
-        "rating": 8.0
-      },
-      {
-        "id": 71,
-        "title": "Avengers: Age of Ultron",
-        "poster": "https://i.goojara.to/mb_217_217316.jpg",
-        "release_date": "2015-05-01",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Joss Whedon"],
-        "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong, and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plans.",
-        "rating": 7.3
-      },
-      {
-        "id": 72,
-        "title": "Avengers: Infinity War",
-        "poster": "https://i.goojara.to/mb_220_220984.jpg",
-        "release_date": "2018-04-27",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Anthony Russo", "Joe Russo"],
-        "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-        "rating": 8.4
-      },
-      {
-        "id": 74,
-        "title": "Captain America: The First Avenger",
-        "poster": "https://i.goojara.to/mb_006_6813.jpg",
-        "release_date": "2011-07-22",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Joe Johnston"],
-        "description": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
-        "rating": 6.9
-      },
-      {
-        "id": 75,
-        "title": "Captain America: The Winter Soldier",
-        "poster": "https://i.goojara.to/mb_216_216699.jpg",
-        "release_date": "2014-04-04",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Anthony Russo", "Joe Russo"],
-        "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
-        "rating": 7.7
-      },
-      {
-        "id": 76,
-        "title": "Captain America: Civil War",
-        "poster": "https://i.goojara.to/mb_218_218089.jpg",
-        "release_date": "2016-05-06",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Anthony Russo", "Joe Russo"],
-        "description": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
-        "rating": 7.8
-      },
-      {
-        "id": 77,
-        "title": "Ant-Man",
-        "poster": "https://i.goojara.to/mb_217_217482.jpg",
-        "release_date": "2015-07-17",
-        "genres": ["Action", "Adventure", "Comedy"],
-        "directors": ["Peyton Reed"],
-        "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
-        "rating": 7.3
-      },
-      {
-        "id": 78,
-        "title": "Doctor Strange",
-        "poster": "https://i.goojara.to/mb_218_218546.jpg",
-        "release_date": "2016-11-04",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["Scott Derrickson"],
-        "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
-        "rating": 7.5
-      },
-      {
-        "id": 79,
-        "title": "Guardians of the Galaxy",
-        "poster": "https://i.goojara.to/mb_216_216796.jpg",
-        "release_date": "2014-08-01",
-        "genres": ["Action", "Adventure", "Comedy"],
-        "directors": ["James Gunn"],
-        "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
-        "rating": 8.0
-      },
-      {
-        "id": 80,
-        "title": "Spider-Man: Homecoming",
-        "poster": "https://i.goojara.to/mb_219_219573.jpg",
-        "release_date": "2017-07-07",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Jon Watts"],
-        "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man and finds himself on the trail of a new menace prowling the skies of New York City.",
-        "rating": 7.4
-      },
-      {
-        "id": 81,
-        "title": "Man of Steel",
-        "poster": "https://i.goojara.to/mb_209_209495.jpg",
-        "release_date": "2013-06-14",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Zack Snyder"],
-        "description": "Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.",
-        "rating": 7.0
-      },
-      {
-        "id": 82,
-        "title": "Batman v Superman: Dawn of Justice",
-        "poster": "https://i.goojara.to/mb_218_218009.jpg",
-        "release_date": "2016-03-25",
-        "genres": ["Action", "Adventure", "Sci-Fi"],
-        "directors": ["Zack Snyder"],
-        "description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel while the world wrestles with what kind of a hero it really needs.",
-        "rating": 6.4
-      },
-      {
-        "id": 83,
-        "title": "Wonder Woman",
-        "poster": "https://i.goojara.to/mb_219_219379.jpg",
-        "release_date": "2017-06-02",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["Patty Jenkins"],
-        "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-        "rating": 7.4
-      },
-      {
-        "id": 84,
-        "title": "Zack Snyder's Justice League",
-        "poster": "https://i.goojara.to/mb_226_226681.jpg",
-        "release_date": "2021-03-18",
-        "genres": ["Action", "Adventure", "Fantasy"],
-        "directors": ["Zack Snyder"],
-        "description": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
-        "rating": 8.1
-      },
-      {
-        "id": 85,
-        "title": "The Suicide Squad",
-        "poster": "https://i.goojara.to/mb_227_227138.jpg",
-        "release_date": "2021-08-05",
-        "genres": ["Action", "Adventure", "Comedy"],
-        "directors": ["James Gunn"],
-        "description": "Task Force X, a.k.a. the Suicide Squad, is sent to the island nation of Corto Maltese to destroy Jotunheim, a Nazi-era prison and laboratory.",
-        "rating": 7.3
-      },
-      {
-        "id": 86,
-        "title": "The Matrix Reloaded",
-        "poster": "https://i.goojara.to/mb_000_446.jpg",
-        "release_date": "2003-05-15",
-        "genres": ["Action", "Sci-Fi"],
-        "directors": ["Lana Wachowski", "Lilly Wachowski"],
-        "description": "Neo and the rebel leaders race against time to find the Machine City before it destroys Zion.",
-        "rating": 7.2
-      },
-      {
-        "id": 87,
-        "title": "The Matrix Revolutions",
-        "poster": "https://i.goojara.to/mb_000_448.jpg",
-        "release_date": "2003-11-05",
-        "genres": ["Action", "Sci-Fi"],
-        "directors": ["Lana Wachowski", "Lilly Wachowski"],
-        "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
-        "rating": 6.7
-      },
-      {
-        "id": 88,
-        "title": "Carrie",
-        "poster": "https://i.goojara.to/mb_003_3691.jpg",
-        "release_date": "1976-11-03",
-        "genres": ["Horror"],
-        "directors": ["Brian De Palma"],
-        "description": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom.",
-        "rating": 7.4
-      },
-      {
-        "id": 89,
-        "title": "Pet Sematary",
-        "poster": "https://i.goojara.to/mb_003_3170.jpg",
-        "release_date": "1989-04-21",
-        "genres": ["Horror", "Thriller"],
-        "directors": ["Mary Lambert"],
-        "description": "After tragedy strikes, a grieving father discovers an ancient burial ground behind his home with the power to raise the dead.",
-        "rating": 6.6
-      },
-      {
-        "id": 90,
-        "title": "Misery",
-        "poster": "https://i.goojara.to/mb_002_2881.jpg",
-        "release_date": "1990-11-30",
-        "genres": ["Drama", "Thriller"],
-        "directors": ["Rob Reiner"],
-        "description": "After a famous author is rescued from a car crash by a fan of his novels, he comes to realize that the care he is receiving is only the beginning of a nightmare of captivity and abuse.",
-        "rating": 7.8
-      },
-      {
-        "id": 91,
-        "title": "Stand by Me",
-        "poster": "https://i.goojara.to/mb_003_3333.jpg",
-        "release_date": "1986-08-22",
-        "genres": ["Adventure", "Drama"],
-        "directors": ["Rob Reiner"],
-        "description": "After the death of one of his friends, a writer recounts a childhood journey with his friends to find the body of a missing boy.",
-        "rating": 8.1
-      },
-      {
-        "id": 92,
-        "title": "Doctor Sleep",
-        "poster": "https://i.goojara.to/mb_224_224579.jpg",
-        "release_date": "2019-11-08",
-        "genres": ["Drama", "Fantasy", "Horror"],
-        "directors": ["Mike Flanagan"],
-        "description": "Years following the events of 'The Shining,' a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
-        "rating": 7.3
-      },
-      {
-        "id": 93,
-        "title": "The Mist",
-        "poster": "https://i.goojara.to/mb_000_469.jpg",
-        "release_date": "2007-11-21",
-        "genres": ["Horror", "Sci-Fi", "Thriller"],
-        "directors": ["Frank Darabont"],
-        "description": "A freak storm unleashes a species of bloodthirsty creatures on a small town, where a small band of citizens hole up in a supermarket and fight for their lives.",
-        "rating": 7.1
-      },
-      {
-        "id": 94,
-        "title": "Dolores Claiborne",
-        "poster": "https://i.goojara.to/mb_009_9631.jpg",
-        "release_date": "1995-03-24",
-        "genres": ["Crime", "Drama", "Mystery"],
-        "directors": ["Taylor Hackford"],
-        "description": "A big-city reporter travels to the small town where her mother has been arrested for the murder of an elderly woman that she works for as a maid.",
-        "rating": 7.4
-      },
-      {
-        "id": 95,
-        "title": "The Fast and the Furious",
-        "poster": "https://i.goojara.to/mb_001_1538.jpg",
-        "release_date": "2001-06-22",
-        "genres": ["Action", "Crime", "Thriller"],
-        "directors": ["Rob Cohen"],
-        "description": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
-        "rating": 6.8
-      },
-      {
-        "id": 96,
-        "title": "2 Fast 2 Furious",
-        "poster": "https://i.goojara.to/mb_001_1390.jpg",
-        "release_date": "2003-06-06",
-        "genres": ["Action", "Crime", "Thriller"],
-        "directors": ["John Singleton"],
-        "description": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
-        "rating": 5.9
-      },
-      {
-        "id": 97,
-        "title": "The Fast and the Furious: Tokyo Drift",
-        "poster": "https://i.goojara.to/mb_000_945.jpg",
-        "release_date": "2006-06-16",
-        "genres": ["Action", "Crime", "Thriller"],
-        "directors": ["Justin Lin"],
-        "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
-        "rating": 6.0
-      },
-      {
-        "id": 98,
-        "title": "Fast & Furious",
-        "poster": "https://i.goojara.to/mb_000_99.jpg",
-        "release_date": "2009-04-03",
-        "genres": ["Action", "Adventure", "Thriller"],
-        "directors": ["Justin Lin"],
-        "description": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
-        "rating": 6.6
-      },
-      {
-        "id": 99,
-        "title": "Fast Five",
-        "poster": "https://i.goojara.to/mb_005_5567.jpg",
-        "release_date": "2011-04-29",
-        "genres": ["Action", "Adventure", "Thriller"],
-        "directors": ["Justin Lin"],
-        "description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
-        "rating": 7.3
-      },
-      {
-        "id": 100,
-        "title": "Fast & Furious 6",
-        "poster": "https://i.goojara.to/mb_209_209492.jpg",
-        "release_date": "2013-05-24",
-        "genres": ["Action", "Adventure", "Thriller"],
-        "directors": ["Justin Lin"],
-        "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.",
-        "rating": 7.1
-      },
-      {
-        "id": 101,
-        "title": "Furious 7",
-        "poster": "https://i.goojara.to/mb_217_217276.jpg",
-        "release_date": "2015-04-03",
-        "genres": ["Action", "Adventure", "Thriller"],
-        "directors": ["James Wan"],
-        "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-        "rating": 7.1
-      },
-      {
-        "id": 102,
-        "title": "The Fate of the Furious",
-        "poster": "https://i.goojara.to/mb_219_219145.jpg",
-        "release_date": "2017-04-14",
-        "genres": ["Action", "Adventure", "Crime"],
-        "directors": ["F. Gary Gray"],
-        "description": "When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew faces trials that will test them as never before.",
-        "rating": 6.7
-      },
-      {
-        "id": 103,
-        "title": "F9: The Fast Saga",
-        "poster": "https://i.goojara.to/mb_226_226917.jpg",
-        "release_date": "2021-06-25",
-        "genres": ["Action", "Adventure", "Crime"],
-        "directors": ["Justin Lin"],
-        "description": "Cipher enlists the help of Jakob, Dom's younger brother, to take revenge on Dom and his team.",
-        "rating": 5.2
-      }
-   ],
-   "tv_shows": [
-      {
-         "id": 1,
-         "title": "Stranger Things",
-         "poster": "https://i.goojara.to/tb_100_100202.jpg",
-         "release_date": "2016-07-15",
-         "genres": [
-            "Drama",
-            "Fantasy",
-            "Horror"
-         ],
-         "creators": [
-            "The Duffer Brothers"
-         ],
-         "description": "A group of kids in a small town uncover supernatural mysteries.",
-         "rating": 8.7,
-         "total_seasons": 4,
-         "total_episodes": 34
-      },
-      {
-         "id": 2,
-         "title": "Game of Thrones",
-         "poster": "https://i.goojara.to/tb_002_2417.jpg",
-         "release_date": "2011-04-17",
-         "genres": [
-            "Drama",
-            "Fantasy",
-            "Adventure"
-         ],
-         "creators": [
-            "David Benioff",
-            "D. B. Weiss"
-         ],
-         "description": "Power struggles among noble families in the mythical land of Westeros.",
-         "rating": 9.3,
-         "total_seasons": 8,
-         "total_episodes": 73
-      },
-      {
-         "id": 3,
-         "title": "Breaking Bad",
-         "poster": "https://i.goojara.to/tb_005_5273.jpg",
-         "release_date": "2008-01-20",
-         "genres": [
-            "Crime",
-            "Drama",
-            "Thriller"
-         ],
-         "creators": [
-            "Vince Gilligan"
-         ],
-         "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student.",
-         "rating": 9.5,
-         "total_seasons": 5,
-         "total_episodes": 62
-      },
-      {
-         "id": 4,
-         "title": "Friends",
-         "poster": "https://i.goojara.to/tb_002_2832.jpg",
-         "release_date": "1994-09-22",
-         "genres": [
-            "Comedy",
-            "Romance"
-         ],
-         "creators": [
-            "David Crane",
-            "Marta Kauffman"
-         ],
-         "description": "Follows the personal and professional lives of six friends living in Manhattan.",
-         "rating": 8.9,
-         "total_seasons": 10,
-         "total_episodes": 236
-      },
-      {
-         "id": 5,
-         "title": "The Simpsons",
-         "poster": "https://i.goojara.to/tb_000_254.jpg",
-         "release_date": "1989-12-17",
-         "genres": [
-            "Animation",
-            "Comedy"
-         ],
-         "creators": [
-            "Matt Groening"
-         ],
-         "description": "The satiric adventures of a working-class family in the misfit city of Springfield.",
-         "rating": 8.7,
-         "total_seasons": 33,
-         "total_episodes": 703
-      },
-      {
-         "id": 6,
-         "title": "The Office",
-         "poster": "https://i.goojara.to/tb_000_794.jpg",
-         "release_date": "2005-03-24",
-         "genres": [
-            "Comedy"
-         ],
-         "creators": [
-            "Greg Daniels"
-         ],
-         "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
-         "rating": 8.9,
-         "total_seasons": 9,
-         "total_episodes": 201
-      },
-      {
-         "id": 7,
-         "title": "The Mandalorian",
-         "poster": "https://i.goojara.to/tb_186_186802.jpg",
-         "release_date": "2019-11-12",
-         "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-         ],
-         "creators": [
-            "Jon Favreau"
-         ],
-         "description": "A lone bounty hunter makes his way through the outer reaches of the galaxy.",
-         "rating": 8.8,
-         "total_seasons": 2,
-         "total_episodes": 16
-      },
-      {
-         "id": 8,
-         "title": "Rick and Morty",
-         "poster": "https://i.goojara.to/tb_093_93307.jpg",
-         "release_date": "2013-12-02",
-         "genres": [
-            "Sci-Fi",
-            "Adventure",
-            "Action",
-            "Animation",
-            "Comedy"
-         ],
-         "creators": [
-            "Justin Roiland", 
-            "Dan Harmon"
-         ],
-         "description": "A sociopathic genius scientist who drags his inherently timid grandson on insanely dangerous adventures across the universe",
-         "rating": 9.1,
-         "total_seasons": 7,
-         "total_episodes": 69
-      },
-      {
-         "id": 9,
-         "title": "Black Mirror",
-         "poster": "https://i.goojara.to/tb_009_9289.jpg",
-         "release_date": "2011-12-04",
-         "genres": [
-            "Drama",
-            "Sci-Fi",
-            "Thriller"
-         ],
-         "creators": [
-            "Charlie Brooker"
-         ],
-         "description": "A series of stand-alone dramas that are sharp, suspenseful, satirical tales that explore techno-paranoia.",
-         "rating": 8.8,
-         "total_seasons": 5,
-         "total_episodes": 22
-      },
-      {
-         "id": 10,
-         "title": "The Witcher",
-         "poster": "https://i.goojara.to/tb_187_187608.jpg",
-         "release_date": "2019-12-20",
-         "genres": [
-            "Action",
-            "Adventure",
-            "Drama"
-         ],
-         "creators": [
-            "Lauren Schmidt Hissrich"
-         ],
-         "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-         "rating": 8.2,
-         "total_seasons": 2,
-         "total_episodes": 16
-      },    
-      {
-         "id": 11,
-         "title": "Daredevil",
-         "poster": "https://i.goojara.to/tb_092_92339.jpg",
-         "release_date": "2015-04-10",
-         "genres": ["Action", "Crime", "Drama"],
-         "creators": ["Drew Goddard"],
-         "description": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
-         "rating": 8.6,
-         "total_seasons": 3,
-         "total_episodes": 39
-       },
-       {
-         "id": 12,
-         "title": "Jessica Jones",
-         "poster": "https://i.goojara.to/tb_094_94181.jpg",
-         "release_date": "2015-11-20",
-         "genres": ["Action", "Crime", "Drama"],
-         "creators": ["Melissa Rosenberg"],
-         "description": "Following a tragic end to her superhero career, Jessica Jones tries to rebuild her life as a private investigator.",
-         "rating": 7.9,
-         "total_seasons": 3,
-         "total_episodes": 39
-       },
-       {
-         "id": 13,
-         "title": "Luke Cage",
-         "poster": "https://i.goojara.to/tb_143_143969.jpg",
-         "release_date": "2016-09-30",
-         "genres": ["Action", "Crime", "Drama"],
-         "creators": ["Cheo Hodari Coker"],
-         "description": "When a sabotaged experiment gives him super strength and unbreakable skin, Luke Cage becomes a fugitive attempting to rebuild his life in Harlem.",
-         "rating": 7.3,
-         "total_seasons": 2,
-         "total_episodes": 26
-       },
-       {
-         "id": 14,
-         "title": "The Punisher",
-         "poster": "https://i.goojara.to/tb_160_160527.jpg",
-         "release_date": "2017-11-17",
-         "genres": ["Action", "Adventure", "Crime"],
-         "creators": ["Steve Lightfoot"],
-         "description": "After the murder of his family, Marine veteran Frank Castle becomes the vigilante known as 'The Punisher.'",
-         "rating": 8.5,
-         "total_seasons": 2,
-         "total_episodes": 26
-       },
-       {
-         "id": 15,
-         "title": "WandaVision",
-         "poster": "https://i.goojara.to/tb_210_210636.jpg",
-         "release_date": "2021-01-15",
-         "genres": ["Action", "Comedy", "Drama"],
-         "creators": ["Jac Schaeffer"],
-         "description": "Living idealized suburban lives, super-powered beings Wanda and Vision begin to suspect that everything is not as it seems.",
-         "rating": 8.0,
-         "total_seasons": 1,
-         "total_episodes": 9
-       },    
-       {
-         "id": 16,
-         "title": "Iron Fist",
-         "poster": "https://i.goojara.to/tb_143_143858.jpg",
-         "release_date": "2017-03-17",
-         "genres": ["Action", "Adventure", "Crime"],
-         "creators": ["Scott Buck"],
-         "description": "A young man with mystical powers returns to New York City to fight crime and corruption as the Iron Fist.",
-         "rating": 6.5,
-         "total_seasons": 2,
-         "total_episodes": 23
-       },
-       {
-         "id": 17,
-         "title": "Marvel's The Defenders",
-         "poster": "https://i.goojara.to/tb_154_154822.jpg",
-         "release_date": "2017-08-18",
-         "genres": ["Action", "Adventure", "Crime"],
-         "creators": ["Douglas Petrie", "Marco Ramirez"],
-         "description": "Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up to protect New York City.",
-         "rating": 7.3,
-         "total_seasons": 1,
-         "total_episodes": 8
-       },
-       {
-         "id": 18,
-         "title": "Hawkeye",
-         "poster": "https://i.goojara.to/tb_223_223592.jpg",
-         "release_date": "2021-11-24",
-         "genres": ["Action", "Adventure", "Crime"],
-         "creators": ["Jonathan Igla"],
-         "description": "Former Avenger Clint Barton teams up with Kate Bishop, a young archer, to save the city from an underground criminal conspiracy.",
-         "rating": 7.8,
-         "total_seasons": 1,
-         "total_episodes": 6
-       },
-       {
-         "id": 19,
-         "title": "Marvel's Agent Carter",
-         "poster": "https://i.goojara.to/tb_091_91293.jpg",
-         "release_date": "2015-01-06",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "creators": ["Christopher Markus", "Stephen McFeely"],
-         "description": "In 1946, Peggy Carter must balance the routine office work at the Strategic Scientific Reserve (SSR) with secretly assisting Howard Stark in his missions.",
-         "rating": 7.9,
-         "total_seasons": 2,
-         "total_episodes": 18
-       },
-       {
-         "id": 20,
-         "title": "Marvel's Runaways",
-         "poster": "https://i.goojara.to/tb_160_160590.jpg",
-         "release_date": "2017-11-21",
-         "genres": ["Action", "Drama", "Crime"],
-         "creators": ["Stephanie Savage", "Josh Schwartz"],
-         "description": "Six teenagers discover that their parents are part of an evil criminal organization. They unite against their parents and set out to stop them.",
-         "rating": 7.0,
-         "total_seasons": 3,
-         "total_episodes": 33
-       },
-       {
-         "id": 21,
-         "title": "Moon Knight",
-         "poster": "https://i.goojara.to/tb_226_226895.jpg",
-         "release_date": "2022-03-30",
-         "genres": ["Action", "Adventure", "Drama"],
-         "creators": ["Jeremy Slater"],
-         "description": "A former Marine with dissociative identity disorder gains powers and becomes the vigilante Moon Knight.",
-         "rating": 8.0,
-         "total_seasons": 1,
-         "total_episodes": 6
-       },
-       {
-         "id": 22,
-         "title": "Brooklyn Nine-Nine",
-         "poster": "https://i.goojara.to/tb_086_86857.jpg",
-         "release_date": "2013-09-17",
-         "genres": ["Comedy", "Crime"],
-         "creators": ["Daniel J. Goor", "Michael Schur"],
-         "description": "Follows the hilarious antics of the detectives of the 99th precinct of the New York City Police Department.",
-         "rating": 8.4,
-         "total_seasons": 8,
-         "total_episodes": 153
-       },
-       {
-         "id": 23,
-         "title": "The Good Place",
-         "poster": "https://i.goojara.to/tb_096_96199.jpg",
-         "release_date": "2016-09-19",
-         "genres": ["Comedy", "Drama", "Fantasy"],
-         "creators": ["Michael Schur"],
-         "description": "A woman realizes she hasn't been a good person and must navigate the afterlife to earn her place in 'The Good Place.'",
-         "rating": 8.2,
-         "total_seasons": 4,
-         "total_episodes": 53
-       },
-       {
-         "id": 24,
-         "title": "Parks and Recreation",
-         "poster": "https://i.goojara.to/tb_007_7973.jpg",
-         "release_date": "2009-04-09",
-         "genres": ["Comedy", "Political"],
-         "creators": ["Greg Daniels", "Michael Schur"],
-         "description": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
-         "rating": 8.6,
-         "total_seasons": 7,
-         "total_episodes": 125
-       },
-       {
-         "id": 25,
-         "title": "The Marvelous Mrs. Maisel",
-         "poster": "https://i.goojara.to/tb_175_175343.jpg",
-         "release_date": "2017-03-17",
-         "genres": ["Comedy", "Drama"],
-         "creators": ["Amy Sherman-Palladino"],
-         "description": "A housewife in the 1950s decides to become a stand-up comic.",
-         "rating": 8.7,
-         "total_seasons": 4,
-         "total_episodes": 34
-       },
-       {
-         "id": 26,
-         "title": "American Horror Story",
-         "poster": "https://i.goojara.to/tb_008_8842.jpg",
-         "release_date": "2011-10-05",
-         "genres": ["Drama", "Horror", "Thriller"],
-         "creators": ["Ryan Murphy", "Brad Falchuk"],
-         "description": "An anthology series that centers on different characters and locations, including a haunted house, an insane asylum, a witch coven, a freak show, and a hotel.",
-         "rating": 8.0,
-         "total_seasons": 10,
-         "total_episodes": 118
-       },
-       {
-         "id": 27,
-         "title": "The Exorcist",
-         "poster": "https://i.goojara.to/tb_096_96254.jpg",
-         "release_date": "2016-09-23",
-         "genres": ["Drama", "Horror", "Mystery"],
-         "creators": ["Jeremy Slater"],
-         "description": "Two priests work together to perform exorcisms and combat demonic possessions in a small town.",
-         "rating": 8.1,
-         "total_seasons": 2,
-         "total_episodes": 20
-       },
-       {
-         "id": 28,
-         "title": "The Haunting of Hill House",
-         "poster": "https://i.goojara.to/tb_171_171824.jpg",
-         "release_date": "2018-10-12",
-         "genres": ["Drama", "Horror", "Mystery"],
-         "creators": ["Mike Flanagan"],
-         "description": "A fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
-         "rating": 8.6,
-         "total_seasons": 1,
-         "total_episodes": 10
-       },
-       {
-         "id": 29,
-         "title": "The Walking Dead",
-         "poster": "https://i.goojara.to/tb_000_951.jpg",
-         "release_date": "2010-10-31",
-         "genres": ["Drama", "Horror", "Thriller"],
-         "creators": ["Frank Darabont"],
-         "description": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.",
-         "rating": 8.2,
-         "total_seasons": 11,
-         "total_episodes": 175
-       },
-       {
-         "id": 30,
-         "title": "Bates Motel",
-         "poster": "https://i.goojara.to/tb_085_85751.jpg",
-         "release_date": "2013-03-18",
-         "genres": ["Drama", "Horror", "Mystery"],
-         "creators": ["Anthony Cipriano", "Carlton Cuse", "Kerry Ehrin"],
-         "description": "A contemporary prequel to Alfred Hitchcock's Psycho, depicting the life of Norman Bates and his mother Norma.",
-         "rating": 8.2,
-         "total_seasons": 5,
-         "total_episodes": 50
-       },
-       {
-         "id": 32,
-         "title": "Suits",
-         "poster": "https://i.goojara.to/tb_005_5265.jpg",
-         "release_date": "2011-06-23",
-         "genres": ["Comedy", "Drama"],
-         "creators": ["Aaron Korsh"],
-         "description": "A talented college dropout starts practicing law at a prestigious New York law firm despite having no legal degree.",
-         "rating": 8.5,
-         "total_seasons": 9,
-         "total_episodes": 134
-       },
-       {
-         "id": 33,
-         "title": "Doctor Who",
-         "poster": "https://i.goojara.to/tb_002_2455.jpg",
-         "release_date": "2005-03-26",
-         "genres": ["Adventure", "Drama", "Family"],
-         "creators": ["Sydney Newman", "C. E. Webber", "Donald Wilson"],
-         "description": "The adventures of the Doctor, a Time Lord from the planet Gallifrey who travels through time and space in the TARDIS.",
-         "rating": 8.6,
-         "total_seasons": 13,
-         "total_episodes": 155
-       },
-       {
-         "id": 34,
-         "title": "Invincible",
-         "poster": "https://i.goojara.to/tb_215_215136.jpg",
-         "release_date": "2021-03-26",
-         "genres": ["Animation", "Action", "Adventure"],
-         "creators": ["Simon Racioppa", "Robert Kirkman"],
-         "description": "An ordinary teenager's father is the most powerful superhero on the planet. As he inherits his father's powers, he discovers the truth about his father's legacy.",
-         "rating": 8.8,
-         "total_seasons": 2,
-         "total_episodes": 12
-       },
-       {
-         "id": 35,
-         "title": "The Flash",
-         "poster": "https://i.goojara.to/tb_090_90400.jpg",
-         "release_date": "2014-10-07",
-         "genres": ["Action", "Adventure", "Drama"],
-         "creators": ["Greg Berlanti", "Geoff Johns", "Andrew Kreisberg"],
-         "description": "After being struck by lightning, Barry Allen becomes the superhero known as the Flash and fights crime in Central City.",
-         "rating": 7.7,
-         "total_seasons": 8,
-         "total_episodes": 155
-       },
-       {
-         "id": 36,
-         "title": "Hell's Kitchen",
-         "poster": "https://i.goojara.to/tb_000_589.jpg",
-         "release_date": "2005-05-30",
-         "genres": ["Reality-TV"],
-         "creators": ["Gordon Ramsay"],
-         "description": "Aspiring chefs compete for the opportunity to work in one of the world's finest restaurants under the guidance of renowned chef Gordon Ramsay.",
-         "rating": 7.0,
-         "total_seasons": 20,
-         "total_episodes": 298
-       },
-       {
-         "id": 37,
-         "title": "Halo",
-         "poster": "https://i.goojara.to/tb_226_226710.jpg",
-         "release_date": "2022-03-24",
-         "genres": ["Action", "Adventure", "Sci-Fi"],
-         "creators": ["Kyle Killen"],
-         "description": "An adaptation of the popular video game series, following the adventures of Master Chief as he battles against various threats.",
-         "rating": 7.2,
-         "total_seasons": 1,
-         "total_episodes": 9
-       },
-       {
-         "id": 38,
-         "title": "Castlevania",
-         "poster": "https://i.goojara.to/tb_150_150576.jpg",
-         "release_date": "2017-07-07",
-         "genres": ["Animation", "Action", "Adventure"],
-         "creators": ["Warren Ellis"],
-         "description": "A vampire hunter fights to save a city besieged by an army of otherworldly creatures controlled by Dracula himself.",
-         "rating": 8.4,
-         "total_seasons": 4,
-         "total_episodes": 32
-       },
-       {
-         "id": 39,
-         "title": "Assassin's Creed: Lineage",
-         "poster": "https://i.goojara.to/mb_218_218745.jpg",
-         "release_date": "2009-11-12",
-         "genres": ["Action", "Adventure", "Drama"],
-         "creators": ["Yves Simoneau"],
-         "description": "A three-part film that serves as a prequel to the video game Assassin's Creed II, following the story of Giovanni Auditore da Firenze.",
-         "rating": 7.7,
-         "total_seasons": 1,
-         "total_episodes": 3
-       },
-       {
-         "id": 40,
-         "title": "Street Fighter: Assassin's Fist",
-         "poster": "https://i.goojara.to/mb_216_216745.jpg",
-         "release_date": "2014-05-23",
-         "genres": ["Action", "Adventure", "Drama"],
-         "creators": ["Joey Ansah", "Christian Howard"],
-         "description": "A multi-layered series exploring the origin stories of iconic Street Fighter characters Ryu and Ken.",
-         "rating": 7.4,
-         "total_seasons": 1,
-         "total_episodes": 12
-       },    
-       {
-         "id": 41,
-         "title": "The Expanse",
-         "poster": "https://i.goojara.to/tb_128_128275.jpg",
-         "release_date": "2015-11-23",
-         "genres": ["Drama", "Mystery", "Sci-Fi"],
-         "creators": ["Mark Fergus", "Hawk Ostby"],
-         "description": "A conspiracy threatens peace across the solar system as a disparate group of characters uncover the greatest conspiracy in human history.",
-         "rating": 8.5,
-         "total_seasons": 6,
-         "total_episodes": 62
-       },
-       {
-         "id": 42,
-         "title": "BoJack Horseman",
-         "poster": "https://i.goojara.to/tb_156_156278.jpg",
-         "release_date": "2014-08-22",
-         "genres": ["Animation", "Comedy", "Drama"],
-         "creators": ["Raphael Bob-Waksberg"],
-         "description": "BoJack Horseman, a washed-up actor from the '90s, plans his big return to celebrity relevance with his tell-all autobiography.",
-         "rating": 8.7,
-         "total_seasons": 6,
-         "total_episodes": 77
-       },
-       {
-         "id": 43,
-         "title": "Avatar: The Last Airbender",
-         "poster": "https://i.goojara.to/tb_008_8199.jpg",
-         "release_date": "2005-02-21",
-         "genres": ["Animation", "Action", "Adventure", "Family", "Fantasy", "Mystery"],
-         "creators": ["Michael Dante DiMartino", "Bryan Konietzko"],
-         "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar.",
-         "rating": 9.2,
-         "total_seasons": 3,
-         "total_episodes": 61
-       },
-       {
-         "id": 44,
-         "title": "Sherlock",
-         "poster": "https://i.goojara.to/tb_009_9208.jpg",
-         "release_date": "2010-07-25",
-         "genres": ["Crime", "Drama", "Mystery", "Thriller"],
-         "creators": ["Mark Gatiss", "Steven Moffat"],
-         "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-         "rating": 9.1,
-         "total_seasons": 4,
-         "total_episodes": 13
-       },
-       {
-         "id": 45,
-         "title": "Peaky Blinders",
-         "poster": "https://i.goojara.to/tb_145_145482.jpg",
-         "release_date": "2013-09-12",
-         "genres": ["Crime", "Drama"],
-         "creators": ["Steven Knight"],
-         "description": "A gangster family epic set in Birmingham, England, in 1919, just after the First World War.",
-         "rating": 8.8,
-         "total_seasons": 6,
-         "total_episodes": 30
-       },
-       {
-         "id": 46,
-         "title": "Family Guy",
-         "poster": "https://i.goojara.to/tb_000_165.jpg",
-         "release_date": "1999-01-31",
-         "genres": ["Animation", "Comedy"],
-         "creators": ["Seth MacFarlane", "David Zuckerman"],
-         "description": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
-         "rating": 8.1,
-         "total_seasons": 21,
-         "total_episodes": 391
-       },
-       {
-         "id": 47,
-         "title": "Squid Game",
-         "poster": "https://i.goojara.to/tb_221_221645.jpg",
-         "release_date": "2021-09-17",
-         "genres": ["Action", "Drama", "Mystery", "Thriller"],
-         "creators": ["Hwang Dong-hyuk"],
-         "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits—with deadly high stakes.",
-         "rating": 8.8,
-         "total_seasons": 1,
-         "total_episodes": 9
-       },
-       {
-         "id": 48,
-         "title": "Loki",
-         "poster": "https://i.goojara.to/tb_219_219088.jpg",
-         "release_date": "2021-06-09",
-         "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-         "creators": ["Michael Waldron"],
-         "description": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of 'Avengers: Endgame.'",
-         "rating": 8.5,
-         "total_seasons": 2,
-         "total_episodes": 11
-       },
-       {
-         "id": 49,
-         "title": "Harley Quinn",
-         "poster": "https://i.goojara.to/tb_187_187206.jpg",
-         "release_date": "2019-11-29",
-         "genres": ["Animation", "Action", "Adventure", "Comedy", "Crime", "Fantasy"],
-         "creators": ["Justin Halpern", "Dean Lorey", "Patrick Schumacker"],
-         "description": "Harley Quinn has finally broken things off once and for all with the Joker and attempts to make it on her own as the criminal Queenpin of Gotham City.",
-         "rating": 8.5,
-         "total_seasons": 10,
-         "total_episodes": 40
-       },    
-       {
-         "id": 50,
-         "title": "The Sopranos",
-         "poster": "https://i.goojara.to/tb_003_3501.jpg",
-         "release_date": "1999-01-10",
-         "genres": ["Crime", "Drama"],
-         "creators": ["David Chase"],
-         "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
-         "rating": 9.2,
-         "total_seasons": 6,
-         "total_episodes": 86
-       },
-       {
-        "id": 51,
-        "title": "The Boys",
-        "poster": "https://i.goojara.to/tb_183_183318.jpg",
-        "release_date": "2019-07-25",
-        "genres": ["Action", "Comedy", "Crime"],
-        "creators": ["Eric Kripke", "Evan Goldberg", "Seth Rogen"],
-        "description": "In a world where superheroes embrace the darker side of their massive celebrity and fame, a group of vigilantes known as 'The Boys' sets out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
-        "rating": 8.7,
-        "total_seasons": 3,
-        "total_episodes": 23
-      },
-      {
-        "id": 52,
-        "title": "The Good Doctor",
-        "poster": "https://i.goojara.to/tb_156_156667.jpg",
-        "release_date": "2017-09-25",
-        "genres": ["Drama"],
-        "creators": ["David Shore"],
-        "description": "A young surgeon with autism and savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: Can a person who doesn't have the ability to relate to people actually save their lives?",
-        "rating": 8.1,
-        "total_seasons": 5,
-        "total_episodes": 79
-      },
-      {
-        "id": 53,
-        "title": "Mr. Robot",
-        "poster": "https://i.goojara.to/tb_092_92963.jpg",
-        "release_date": "2015-06-24",
-        "genres": ["Crime", "Drama", "Thriller"],
-        "creators": ["Sam Esmail"],
-        "description": "A young programmer becomes involved in a cyber-anarchy group and must deal with the consequences.",
-        "rating": 8.5,
-        "total_seasons": 4,
-        "total_episodes": 45
-      },
-      {
-        "id": 54,
-        "title": "Homeland",
-        "poster": "https://i.goojara.to/tb_008_8306.jpg",
-        "release_date": "2011-10-02",
-        "genres": ["Crime", "Drama", "Mystery"],
-        "creators": ["Alex Gansa", "Howard Gordon"],
-        "description": "A bipolar CIA operative becomes convinced a prisoner of war has been turned by al-Qaeda and is planning to carry out a terrorist attack on American soil.",
-        "rating": 8.3,
-        "total_seasons": 8,
-        "total_episodes": 96
-      },
-      {
-        "id": 55,
-        "title": "The Wire",
-        "poster": "https://i.goojara.to/tb_009_9209.jpg",
-        "release_date": "2002-06-02",
-        "genres": ["Crime", "Drama", "Thriller"],
-        "creators": ["David Simon"],
-        "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
-        "rating": 9.3,
-        "total_seasons": 5,
-        "total_episodes": 60
-      },
-      {
-        "id": 56,
-        "title": "Outlander",
-        "poster": "https://i.goojara.to/tb_090_90034.jpg",
-        "release_date": "2014-08-09",
-        "genres": ["Drama", "Fantasy", "Romance"],
-        "creators": ["Ronald D. Moore"],
-        "description": "An English combat nurse from 1945 is mysteriously swept back in time to 1743.",
-        "rating": 8.4,
-        "total_seasons": 6,
-        "total_episodes": 73
-      },
-      {
-        "id": 57,
-        "title": "The Queen's Gambit",
-        "poster": "https://i.goojara.to/tb_204_204563.jpg",
-        "release_date": "2020-10-23",
-        "genres": ["Drama"],
-        "creators": ["Scott Frank", "Allan Scott"],
-        "description": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But, child stardom comes at a price.",
-        "rating": 8.6,
-        "total_seasons": 1,
-        "total_episodes": 7
-      },
-      {
-        "id": 58,
-        "title": "True Detective",
-        "poster": "https://i.goojara.to/tb_087_87798.jpg",
-        "release_date": "2014-01-12",
-        "genres": ["Crime", "Drama", "Mystery"],
-        "creators": ["Nic Pizzolatto"],
-        "description": "Seasonal anthology series in which police investigations unearth personal and professional secrets of those involved, both within and outside the law.",
-        "rating": 9.0,
-        "total_seasons": 3,
-        "total_episodes": 24
-      },
-      {
-        "id": 59,
-        "title": "The Handmaid's Tale",
-        "poster": "https://i.goojara.to/tb_145_145671.jpg",
-        "release_date": "2017-04-26",
-        "genres": ["Drama", "Sci-Fi", "Thriller"],
-        "creators": ["Bruce Miller"],
-        "description": "In a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
-        "rating": 8.4,
-        "total_seasons": 5,
-        "total_episodes": 55
-      },
-      {
-        "id": 60,
-        "title": "Fargo",
-        "poster": "https://i.goojara.to/tb_089_89268.jpg",
-        "release_date": "2014-04-15",
-        "genres": ["Crime", "Drama", "Thriller"],
-        "creators": ["Noah Hawley"],
-        "description": "Various chronicles of deception, intrigue, and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.",
-        "rating": 8.9,
-        "total_seasons": 4,
-        "total_episodes": 41
-      },
-      {
-        "id": 61,
-        "title": "Vikings",
-        "poster": "https://i.goojara.to/tb_085_85415.jpg",
-        "release_date": "2013-03-03",
-        "genres": ["Action", "Adventure", "Drama"],
-        "creators": ["Michael Hirst"],
-        "description": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore and raid the distant shores across the ocean.",
-        "rating": 8.5,
-        "total_seasons": 6,
-        "total_episodes": 89
-      },
-      {
-        "id": 62,
-        "title": "The Umbrella Academy",
-        "poster": "https://i.goojara.to/tb_177_177871.jpg",
-        "release_date": "2019-02-15",
-        "genres": ["Action", "Adventure", "Comedy"],
-        "creators": ["Jeremy Slater", "Steve Blackman"],
-        "description": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
-        "rating": 8.0,
-        "total_seasons": 3,
-        "total_episodes": 30
-      },
-      {
-        "id": 63,
-        "title": "Better Call Saul",
-        "poster": "https://i.goojara.to/tb_091_91640.jpg",
-        "release_date": "2015-02-08",
-        "genres": ["Crime", "Drama"],
-        "creators": ["Vince Gilligan", "Peter Gould"],
-        "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the time before he established his strip-mall law office in Albuquerque, New Mexico.",
-        "rating": 8.7,
-        "total_seasons": 6,
-        "total_episodes": 63
-      },
-      {
-        "id": 64,
-        "title": "The 100",
-        "poster": "https://i.goojara.to/tb_088_88570.jpg",
-        "release_date": "2014-03-19",
-        "genres": ["Drama", "Mystery", "Sci-Fi"],
-        "creators": ["Jason Rothenberg"],
-        "description": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
-        "rating": 7.6,
-        "total_seasons": 7,
-        "total_episodes": 100
-      },
-      {
-        "id": 65,
-        "title": "Lucifer",
-        "poster": "https://i.goojara.to/tb_093_93248.jpg",
-        "release_date": "2016-01-25",
-        "genres": ["Crime", "Drama", "Fantasy"],
-        "creators": ["Tom Kapinos"],
-        "description": "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity.",
-        "rating": 8.1,
-        "total_seasons": 6,
-        "total_episodes": 77
-      },
-      {
-        "id": 66,
-        "title": "Arrow",
-        "poster": "https://i.goojara.to/tb_084_84146.jpg",
-        "release_date": "2012-10-10",
-        "genres": ["Action", "Adventure", "Crime"],
-        "creators": ["Greg Berlanti", "Marc Guggenheim", "Andrew Kreisberg"],
-        "description": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
-        "rating": 7.5,
-        "total_seasons": 8,
-        "total_episodes": 170
-      }
-
+     {
+       "title": "The Matrix",
+       "poster": "https://i.goojara.to/mb_000_445.jpg",
+       "release_date": "1999-03-31",
+       "genres": [
+         "Sci-Fi",
+         "Action"
+       ],
+       "directors": [
+         "Lana Wachowski",
+         "Lilly Wachowski"
+       ],
+       "description": "A computer hacker learns about the true nature of his reality.",
+       "rating": 8.7
+     },
+     {
+       "title": "Inception",
+       "poster": "https://i.goojara.to/mb_002_2088.jpg",
+       "release_date": "2010-07-16",
+       "genres": [
+         "Action",
+         "Thriller"
+       ],
+       "directors": [
+         "Christopher Nolan"
+       ],
+       "description": "A thief enters the dreams of others to steal their secrets.",
+       "rating": 8.8
+     },
+     {
+       "title": "The Shawshank Redemption",
+       "poster": "https://i.goojara.to/mb_000_247.jpg",
+       "release_date": "1994-09-23",
+       "genres": [
+         "Drama"
+       ],
+       "directors": [
+         "Frank Darabont"
+       ],
+       "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+       "rating": 9.3
+     },
+     {
+       "title": "Pulp Fiction",
+       "poster": "https://i.goojara.to/mb_000_250.jpg",
+       "release_date": "1994-10-14",
+       "genres": [
+         "Crime",
+         "Drama"
+       ],
+       "directors": [
+         "Quentin Tarantino"
+       ],
+       "description": "Various interconnected stories of criminals in the Los Angeles underworld.",
+       "rating": 8.9
+     },
+     {
+       "title": "The Dark Knight",
+       "poster": "https://i.goojara.to/mb_000_18.jpg",
+       "release_date": "2008-07-18",
+       "genres": [
+         "Action",
+         "Crime",
+         "Drama"
+       ],
+       "directors": [
+         "Christopher Nolan"
+       ],
+       "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+       "rating": 9
+     },
+     {
+       "title": "The Godfather",
+       "poster": "https://i.goojara.to/mb_000_248.jpg",
+       "release_date": "1972-03-24",
+       "genres": [
+         "Crime",
+         "Drama"
+       ],
+       "directors": [
+         "Francis Ford Coppola"
+       ],
+       "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+       "rating": 9.2
+     },
+     {
+       "title": "Forrest Gump",
+       "poster": "https://i.goojara.to/mb_000_515.jpg",
+       "release_date": "1994-07-06",
+       "genres": [
+         "Drama",
+         "Romance"
+       ],
+       "directors": [
+         "Robert Zemeckis"
+       ],
+       "description": "The presidencies of Kennedy through Carter are seen through the eyes of a mentally disabled man.",
+       "rating": 8.8
+     },
+     {
+       "title": "Fight Club",
+       "poster": "https://i.goojara.to/mb_000_253.jpg",
+       "release_date": "1999-10-15",
+       "genres": [
+         "Drama"
+       ],
+       "directors": [
+         "David Fincher"
+       ],
+       "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club.",
+       "rating": 8.8
+     },
+     {
+       "title": "Schindler's List",
+       "poster": "https://i.goojara.to/mb_000_251.jpg",
+       "release_date": "1993-12-15",
+       "genres": [
+         "Biography",
+         "Drama",
+         "History"
+       ],
+       "directors": [
+         "Steven Spielberg"
+       ],
+       "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+       "rating": 8.9
+     },
+     {
+       "title": "The Lord of the Rings: The Fellowship of the Ring",
+       "poster": "https://i.goojara.to/mb_000_254.jpg",
+       "release_date": "2001-12-19",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "directors": [
+         "Peter Jackson"
+       ],
+       "description": "A young hobbit, Frodo, who has found the One Ring, begins his journey with eight companions to Mount Doom, the only place where the Ring can be destroyed.",
+       "rating": 8.8
+     },
+     {
+       "title": "The Silence of the Lambs",
+       "poster": "https://i.goojara.to/mb_000_337.jpg",
+       "release_date": "1991-02-14",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "directors": [
+         "Jonathan Demme"
+       ],
+       "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+       "rating": 8.6
+     },
+     {
+       "title": "The Shining",
+       "poster": "https://i.goojara.to/mb_002_2035.jpg",
+       "release_date": "1980-05-23",
+       "genres": [
+         "Drama",
+         "Horror"
+       ],
+       "directors": [
+         "Stanley Kubrick"
+       ],
+       "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+       "rating": 8.4
+     },
+     {
+       "title": "The Departed",
+       "poster": "https://i.goojara.to/mb_000_257.jpg",
+       "release_date": "2006-10-06",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "directors": [
+         "Martin Scorsese"
+       ],
+       "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+       "rating": 8.5
+     },
+     {
+       "title": "Inglourious Basterds",
+       "poster": "https://i.goojara.to/mb_000_67.jpg",
+       "release_date": "2009-08-21",
+       "genres": [
+         "Adventure",
+         "Drama",
+         "War"
+       ],
+       "directors": [
+         "Quentin Tarantino"
+       ],
+       "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+       "rating": 8.3
+     },
+     {
+       "title": "The Usual Suspects",
+       "poster": "https://i.goojara.to/mb_000_255.jpg",
+       "release_date": "1995-09-15",
+       "genres": [
+         "Crime",
+         "Mystery",
+         "Thriller"
+       ],
+       "directors": [
+         "Bryan Singer"
+       ],
+       "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+       "rating": 8.5
+     },
+     {
+       "title": "The Grand Budapest Hotel",
+       "poster": "https://i.goojara.to/mb_216_216750.jpg",
+       "release_date": "2014-02-26",
+       "genres": [
+         "Adventure",
+         "Comedy",
+         "Crime"
+       ],
+       "directors": [
+         "Wes Anderson"
+       ],
+       "description": "A hotel concierge and his protégé become involved in the theft and recovery of a priceless Renaissance painting.",
+       "rating": 8.1
+     },
+     {
+       "title": "The Pianist",
+       "poster": "https://i.goojara.to/mb_000_259.jpg",
+       "release_date": "2002-09-02",
+       "genres": [
+         "Biography",
+         "Drama",
+         "Music"
+       ],
+       "directors": [
+         "Roman Polanski"
+       ],
+       "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto in World War II.",
+       "rating": 8.5
+     },
+     {
+       "title": "The Social Network",
+       "poster": "https://i.goojara.to/mb_003_3724.jpg",
+       "release_date": "2010-10-01",
+       "genres": [
+         "Biography",
+         "Drama"
+       ],
+       "directors": [
+         "David Fincher"
+       ],
+       "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+       "rating": 7.7
+     },
+     {
+       "title": "Memento",
+       "poster": "https://i.goojara.to/mb_000_449.jpg",
+       "release_date": "2001-09-05",
+       "genres": [
+         "Mystery",
+         "Thriller"
+       ],
+       "directors": [
+         "Christopher Nolan"
+       ],
+       "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+       "rating": 8.4
+     },
+     {
+       "title": "The Green Mile",
+       "poster": "https://i.goojara.to/mb_001_1080.jpg",
+       "release_date": "1999-12-10",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Fantasy"
+       ],
+       "directors": [
+         "Frank Darabont"
+       ],
+       "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+       "rating": 8.6
+     },
+     {
+       "title": "Dune",
+       "poster": "https://i.goojara.to/mb_227_227346.jpg",
+       "release_date": "2021-10-21",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "directors": [
+         "Denis Villeneuve"
+       ],
+       "description": "Paul Atreides, a brilliant and gifted young man, must travel to the most dangerous planet in the universe to ensure the future of his family and his people.",
+       "rating": 8.3
+     },
+     {
+       "title": "No Time to Die",
+       "poster": "https://i.goojara.to/mb_227_227388.jpg",
+       "release_date": "2021-09-28",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "Cary Joji Fukunaga"
+       ],
+       "description": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+       "rating": 7.5
+     },
+     {
+       "title": "Shang-Chi and the Legend of the Ten Rings",
+       "poster": "https://i.goojara.to/mb_227_227389.jpg",
+       "release_date": "2021-09-02",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Destin Daniel Cretton"
+       ],
+       "description": "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+       "rating": 7.8
+     },
+     {
+       "title": "A Quiet Place Part II",
+       "poster": "https://i.goojara.to/mb_226_226998.jpg",
+       "release_date": "2021-05-28",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "John Krasinski"
+       ],
+       "description": "Following the events at home, the Abbott family now faces the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.",
+       "rating": 7.4
+     },
+     {
+       "title": "Black Widow",
+       "poster": "https://i.goojara.to/mb_227_227035.jpg",
+       "release_date": "2021-07-07",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Cate Shortland"
+       ],
+       "description": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+       "rating": 7.3
+     },
+     {
+       "title": "Spider-Man: No Way Home",
+       "poster": "https://i.goojara.to/mb_227_227557.jpg",
+       "release_date": "2021-12-17",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Jon Watts"
+       ],
+       "description": "Spider-Man's identity is revealed, and he seeks help from Doctor Strange. However, things take an unexpected turn, and Peter Parker finds himself dealing with villains from different realities.",
+       "rating": 8.7
+     },
+     {
+       "title": "The Batman",
+       "poster": "https://i.goojara.to/mb_227_227770.jpg",
+       "release_date": "2022-03-04",
+       "genres": [
+         "Action",
+         "Crime",
+         "Drama"
+       ],
+       "directors": [
+         "Matt Reeves"
+       ],
+       "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his family while facing a serial killer known as the Riddler.",
+       "rating": 8.4
+     },
+     {
+       "title": "Shazam!",
+       "poster": "https://i.goojara.to/mb_223_223185.jpg",
+       "release_date": "2019-04-05",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "David F. Sandberg"
+       ],
+       "description": "A teenage foster child turns into an adult superhero by uttering the magic word 'Shazam!' He must learn to control his newfound powers and face the evil Dr. Thaddeus Sivana.",
+       "rating": 7.1
+     },
+     {
+       "title": "Avengers: Endgame",
+       "poster": "https://i.goojara.to/mb_223_223280.jpg",
+       "release_date": "2019-04-26",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "directors": [
+         "Anthony Russo",
+         "Joe Russo"
+       ],
+       "description": "The Avengers take one final stand against the powerful Thanos in the epic conclusion to the Infinity Saga.",
+       "rating": 8.4
+     },
+     {
+       "title": "Wonder Woman 1984",
+       "poster": "https://i.goojara.to/mb_226_226314.jpg",
+       "release_date": "2020-12-25",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Patty Jenkins"
+       ],
+       "description": "Diana Prince must contend with a new threat, the charismatic businessman Maxwell Lord, and the mysterious Cheetah, while dealing with the return of her lost love, Steve Trevor.",
+       "rating": 5.4
+     },
+     {
+       "title": "Doctor Strange in the Multiverse of Madness",
+       "poster": "https://i.goojara.to/mb_227_227986.jpg",
+       "release_date": "2022-03-25",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Sam Raimi"
+       ],
+       "description": "Doctor Strange faces dark forces while dealing with the consequences of tampering with the multiverse.",
+       "rating": 8.5
+     },
+     {
+       "title": "Aquaman",
+       "poster": "https://i.goojara.to/mb_222_222518.jpg",
+       "release_date": "2018-12-21",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "James Wan"
+       ],
+       "description": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, must step forward to lead his people and be a hero to the world.",
+       "rating": 6.9
+     },
+     {
+       "title": "Guardians of the Galaxy Vol. 2",
+       "poster": "https://i.goojara.to/mb_219_219190.jpg",
+       "release_date": "2017-05-05",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "James Gunn"
+       ],
+       "description": "The Guardians must fight to keep their newfound family together as they unravel the mystery of Peter Quill's true parentage.",
+       "rating": 7.6
+     },
+     {
+       "title": "Black Panther",
+       "poster": "https://i.goojara.to/mb_220_220527.jpg",
+       "release_date": "2018-02-16",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Ryan Coogler"
+       ],
+       "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+       "rating": 7.3
+     },
+     {
+       "title": "Deadpool",
+       "poster": "https://i.goojara.to/mb_217_217929.jpg",
+       "release_date": "2016-02-12",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "Tim Miller"
+       ],
+       "description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
+       "rating": 8.0
+     },
+     {
+       "title": "Venom",
+       "poster": "https://i.goojara.to/mb_222_222010.jpg",
+       "release_date": "2018-10-05",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Ruben Fleischer"
+       ],
+       "description": "A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.",
+       "rating": 6.7
+     },
+     {
+       "title": "Thor: Ragnarok",
+       "poster": "https://i.goojara.to/mb_220_220184.jpg",
+       "release_date": "2017-11-03",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "Taika Waititi"
+       ],
+       "description": "Thor is imprisoned on the planet Sakaar and must race against time to return to Asgard and stop Ragnarok, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+       "rating": 7.9
+     },
+     {
+       "title": "Captain Marvel",
+       "poster": "https://i.goojara.to/mb_223_223033.jpg",
+       "release_date": "2019-03-08",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Anna Boden",
+         "Ryan Fleck"
+       ],
+       "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+       "rating": 6.8
+     },
+     {
+       "title": "Wonder Woman",
+       "poster": "https://i.goojara.to/mb_219_219379.jpg",
+       "release_date": "2017-06-02",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Patty Jenkins"
+       ],
+       "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+       "rating": 7.4
+     },
+     {
+       "title": "Ant-Man and The Wasp",
+       "poster": "https://i.goojara.to/mb_221_221473.jpg",
+       "release_date": "2018-07-06",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "Peyton Reed"
+       ],
+       "description": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+       "rating": 7.1
+     },
+     {
+       "title": "The Banker",
+       "poster": "https://i.goojara.to/mb_225_225127.jpg",
+       "release_date": "2020-03-06",
+       "genres": [
+         "Biography",
+         "Drama"
+       ],
+       "directors": [
+         "George Nolfi"
+       ],
+       "description": "In the 1960s, two African American entrepreneurs hire a working-class white man to pretend to be the head of their business empire while they pose as a janitor and chauffeur.",
+       "rating": 7.3
+     },
+     {
+       "title": "Braveheart",
+       "poster": "https://i.goojara.to/mb_000_286.jpg",
+       "release_date": "1995-05-24",
+       "genres": [
+         "Biography",
+         "Drama",
+         "History"
+       ],
+       "directors": [
+         "Mel Gibson"
+       ],
+       "description": "Scottish warrior William Wallace leads a rebellion against the oppressive English rule.",
+       "rating": 8.3
+     },
+     {
+       "title": "The Imitation Game",
+       "poster": "https://i.goojara.to/mb_216_216901.jpg",
+       "release_date": "2014-11-28",
+       "genres": [
+         "Biography",
+         "Drama",
+         "Thriller"
+       ],
+       "directors": [
+         "Morten Tyldum"
+       ],
+       "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
+       "rating": 8.0
+     },
+     {
+       "title": "The Notebook",
+       "poster": "https://i.goojara.to/mb_000_956.jpg",
+       "release_date": "2004-06-25",
+       "genres": [
+         "Drama",
+         "Romance"
+       ],
+       "directors": [
+         "Nick Cassavetes"
+       ],
+       "description": "A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.",
+       "rating": 7.8
+     },
+     {
+       "title": "Pride and Prejudice",
+       "poster": "https://i.goojara.to/mb_000_295.jpg",
+       "release_date": "2005-11-23",
+       "genres": [
+         "Drama",
+         "Romance"
+       ],
+       "directors": [
+         "Joe Wright"
+       ],
+       "description": "Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class.",
+       "rating": 7.8
+     },
+     {
+       "title": "Mad Max: Fury Road",
+       "poster": "https://i.goojara.to/mb_217_217361.jpg",
+       "release_date": "2015-05-15",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "George Miller"
+       ],
+       "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman, Furiosa, to try and survive.",
+       "rating": 8.1
+     },
+     {
+       "title": "John Wick",
+       "poster": "https://i.goojara.to/mb_216_216988.jpg",
+       "release_date": "2014-10-24",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "Chad Stahelski",
+         "David Leitch"
+       ],
+       "description": "An ex-hitman seeks vengeance for the killing of his dog, a gift from his deceased wife.",
+       "rating": 7.4
+     },
+     {
+       "title": "Die Hard",
+       "poster": "https://i.goojara.to/mb_001_1850.jpg",
+       "release_date": "1988-07-15",
+       "genres": [
+         "Action",
+         "Thriller"
+       ],
+       "directors": [
+         "John McTiernan"
+       ],
+       "description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+       "rating": 8.2
+     },
+     {
+       "title": "The Dark Knight Rises",
+       "poster": "https://i.goojara.to/mb_201_201726.jpg",
+       "release_date": "2012-07-20",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "Christopher Nolan"
+       ],
+       "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+       "rating": 8.4
+     },
+     {
+       "title": "Dumb and Dumber",
+       "poster": "https://i.goojara.to/mb_002_2461.jpg",
+       "release_date": "1994-12-16",
+       "genres": [
+         "Comedy"
+       ],
+       "directors": [
+         "Peter Farrelly",
+         "Bobby Farrelly"
+       ],
+       "description": "The cross-country adventures of two good-hearted but incredibly stupid friends.",
+       "rating": 7.3
+     },
+     {
+       "title": "John Wick: Chapter 2",
+       "poster": "https://i.goojara.to/mb_218_218975.jpg",
+       "release_date": "2017-02-10",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "Chad Stahelski"
+       ],
+       "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
+       "rating": 7.5
+     },
+     {
+       "title": "John Wick: Chapter 3 - Parabellum",
+       "poster": "https://i.goojara.to/mb_223_223474.jpg",
+       "release_date": "2019-05-17",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "Chad Stahelski"
+       ],
+       "description": "Super-assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head, he is the target of hitmen and women everywhere.",
+       "rating": 7.4
+     },
+     {
+       "title": "Dumb and Dumberer: When Harry Met Lloyd",
+       "poster": "https://i.goojara.to/mb_008_8878.jpg",
+       "release_date": "2003-06-13",
+       "genres": [
+         "Comedy"
+       ],
+       "directors": [
+         "Troy Miller"
+       ],
+       "description": "The incredibly true adventure of two friends from completely different worlds who inadvertently start the ultimate 'dude band.",
+       "rating": 3.4
+     },
+     {
+       "title": "Dumb and Dumber To",
+       "poster": "https://i.goojara.to/mb_216_216872.jpg",
+       "release_date": "2014-11-14",
+       "genres": [
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "Bobby Farrelly",
+         "Peter Farrelly"
+       ],
+       "description": "Twenty years since their first adventure, Lloyd and Harry go on a road trip to find Harry's newly discovered daughter, who was given up for adoption.",
+       "rating": 5.6
+     },
+     {
+       "title": "Batman Begins",
+       "poster": "https://i.goojara.to/mb_000_269.jpg",
+       "release_date": "2005-06-15",
+       "genres": [
+         "Action",
+         "Adventure"
+       ],
+       "directors": [
+         "Christopher Nolan"
+       ],
+       "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+       "rating": 8.2
+     },
+     {
+       "title": "Avatar: The Way of Water",
+       "poster": "https://i.goojara.to/mb_228_228643.jpg",
+       "release_date": "2022-12-16",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "James Cameron"
+       ],
+       "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.        ",
+       "rating": 7.6
+     },
+     {
+       "title": "Mad Max",
+       "poster": "https://i.goojara.to/mb_008_8340.jpg",
+       "release_date": "1979-04-12",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "George Miller"
+       ],
+       "description": "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
+       "rating": 6.9
+     },
+     {
+       "title": "Mad Max 2: The Road Warrior",
+       "poster": "https://i.goojara.to/mb_008_8436.jpg",
+       "release_date": "1981-12-24",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "George Miller"
+       ],
+       "description": "In the post-apocalyptic Australian wasteland, a cynical drifter agrees to help a small, gasoline-rich community escape a horde of bandits.",
+       "rating": 7.6
+     },
+     {
+       "title": "Mad Max Beyond Thunderdome",
+       "poster": "https://i.goojara.to/mb_003_3389.jpg",
+       "release_date": "1985-07-10",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "George Miller",
+         "George Ogilvie"
+       ],
+       "description": "After being exiled from the most advanced town in post-apocalyptic Australia, a drifter travels with a group of abandoned children to rebel against the town's queen.",
+       "rating": 6.3
+     },
+     {
+       "title": "The Hunger Games",
+       "poster": "https://i.goojara.to/mb_201_201598.jpg",
+       "release_date": "2012-03-23",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Gary Ross"
+       ],
+       "description": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+       "rating": 7.2
+     },
+     {
+       "title": "The Hunger Games: Catching Fire",
+       "poster": "https://i.goojara.to/mb_209_209490.jpg",
+       "release_date": "2013-11-22",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Francis Lawrence"
+       ],
+       "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+       "rating": 7.5
+     },
+     {
+       "title": "The Hunger Games: Mockingjay - Part 1",
+       "poster": "https://i.goojara.to/mb_216_216838.jpg",
+       "release_date": "2014-11-21",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Francis Lawrence"
+       ],
+       "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.",
+       "rating": 6.6
+     },
+     {
+       "title": "The Hunger Games: Mockingjay - Part 2",
+       "poster": "https://i.goojara.to/mb_217_217805.jpg",
+       "release_date": "2015-11-20",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Francis Lawrence"
+       ],
+       "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+       "rating": 6.5
+     },
+     {
+       "title": "Iron Man",
+       "poster": "https://i.goojara.to/mb_000_19.jpg",
+       "release_date": "2008-05-02",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Jon Favreau"
+       ],
+       "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight against evil.",
+       "rating": 7.9
+     },
+     {
+       "title": "Iron Man 2",
+       "poster": "https://i.goojara.to/mb_000_59.jpg",
+       "release_date": "2010-05-07",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Jon Favreau"
+       ],
+       "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+       "rating": 7.0
+     },
+     {
+       "title": "Iron Man 3",
+       "poster": "https://i.goojara.to/mb_209_209487.jpg",
+       "release_date": "2013-05-03",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Shane Black"
+       ],
+       "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+       "rating": 7.2
+     },
+     {
+       "title": "Thor",
+       "poster": "https://i.goojara.to/mb_005_5767.jpg",
+       "release_date": "2011-05-06",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Kenneth Branagh"
+       ],
+       "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+       "rating": 7.0
+     },
+     {
+       "title": "Thor: The Dark World",
+       "poster": "https://i.goojara.to/mb_209_209499.jpg",
+       "release_date": "2013-11-08",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Alan Taylor"
+       ],
+       "description": "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
+       "rating": 6.9
+     },
+     {
+       "title": "The Avengers",
+       "poster": "https://i.goojara.to/mb_201_201627.jpg",
+       "release_date": "2012-05-04",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Joss Whedon"
+       ],
+       "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+       "rating": 8.0
+     },
+     {
+       "title": "Avengers: Age of Ultron",
+       "poster": "https://i.goojara.to/mb_217_217316.jpg",
+       "release_date": "2015-05-01",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Joss Whedon"
+       ],
+       "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong, and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plans.",
+       "rating": 7.3
+     },
+     {
+       "title": "Avengers: Infinity War",
+       "poster": "https://i.goojara.to/mb_220_220984.jpg",
+       "release_date": "2018-04-27",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Anthony Russo",
+         "Joe Russo"
+       ],
+       "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+       "rating": 8.4
+     },
+     {
+       "title": "Captain America: The First Avenger",
+       "poster": "https://i.goojara.to/mb_006_6813.jpg",
+       "release_date": "2011-07-22",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Joe Johnston"
+       ],
+       "description": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
+       "rating": 6.9
+     },
+     {
+       "title": "Captain America: The Winter Soldier",
+       "poster": "https://i.goojara.to/mb_216_216699.jpg",
+       "release_date": "2014-04-04",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Anthony Russo",
+         "Joe Russo"
+       ],
+       "description": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+       "rating": 7.7
+     },
+     {
+       "title": "Captain America: Civil War",
+       "poster": "https://i.goojara.to/mb_218_218089.jpg",
+       "release_date": "2016-05-06",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Anthony Russo",
+         "Joe Russo"
+       ],
+       "description": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
+       "rating": 7.8
+     },
+     {
+       "title": "Ant-Man",
+       "poster": "https://i.goojara.to/mb_217_217482.jpg",
+       "release_date": "2015-07-17",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "Peyton Reed"
+       ],
+       "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+       "rating": 7.3
+     },
+     {
+       "title": "Doctor Strange",
+       "poster": "https://i.goojara.to/mb_218_218546.jpg",
+       "release_date": "2016-11-04",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Scott Derrickson"
+       ],
+       "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+       "rating": 7.5
+     },
+     {
+       "title": "Guardians of the Galaxy",
+       "poster": "https://i.goojara.to/mb_216_216796.jpg",
+       "release_date": "2014-08-01",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "James Gunn"
+       ],
+       "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+       "rating": 8.0
+     },
+     {
+       "title": "Spider-Man: Homecoming",
+       "poster": "https://i.goojara.to/mb_219_219573.jpg",
+       "release_date": "2017-07-07",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Jon Watts"
+       ],
+       "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man and finds himself on the trail of a new menace prowling the skies of New York City.",
+       "rating": 7.4
+     },
+     {
+       "title": "Man of Steel",
+       "poster": "https://i.goojara.to/mb_209_209495.jpg",
+       "release_date": "2013-06-14",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Zack Snyder"
+       ],
+       "description": "Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.",
+       "rating": 7.0
+     },
+     {
+       "title": "Batman v Superman: Dawn of Justice",
+       "poster": "https://i.goojara.to/mb_218_218009.jpg",
+       "release_date": "2016-03-25",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Zack Snyder"
+       ],
+       "description": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel while the world wrestles with what kind of a hero it really needs.",
+       "rating": 6.4
+     },
+     {
+       "title": "Wonder Woman",
+       "poster": "https://i.goojara.to/mb_219_219379.jpg",
+       "release_date": "2017-06-02",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Patty Jenkins"
+       ],
+       "description": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+       "rating": 7.4
+     },
+     {
+       "title": "Zack Snyder's Justice League",
+       "poster": "https://i.goojara.to/mb_226_226681.jpg",
+       "release_date": "2021-03-18",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "directors": [
+         "Zack Snyder"
+       ],
+       "description": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+       "rating": 8.1
+     },
+     {
+       "title": "The Suicide Squad",
+       "poster": "https://i.goojara.to/mb_227_227138.jpg",
+       "release_date": "2021-08-05",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "directors": [
+         "James Gunn"
+       ],
+       "description": "Task Force X, a.k.a. the Suicide Squad, is sent to the island nation of Corto Maltese to destroy Jotunheim, a Nazi-era prison and laboratory.",
+       "rating": 7.3
+     },
+     {
+       "title": "The Matrix Reloaded",
+       "poster": "https://i.goojara.to/mb_000_446.jpg",
+       "release_date": "2003-05-15",
+       "genres": [
+         "Action",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Lana Wachowski",
+         "Lilly Wachowski"
+       ],
+       "description": "Neo and the rebel leaders race against time to find the Machine City before it destroys Zion.",
+       "rating": 7.2
+     },
+     {
+       "title": "The Matrix Revolutions",
+       "poster": "https://i.goojara.to/mb_000_448.jpg",
+       "release_date": "2003-11-05",
+       "genres": [
+         "Action",
+         "Sci-Fi"
+       ],
+       "directors": [
+         "Lana Wachowski",
+         "Lilly Wachowski"
+       ],
+       "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
+       "rating": 6.7
+     },
+     {
+       "title": "Carrie",
+       "poster": "https://i.goojara.to/mb_003_3691.jpg",
+       "release_date": "1976-11-03",
+       "genres": [
+         "Horror"
+       ],
+       "directors": [
+         "Brian De Palma"
+       ],
+       "description": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom.",
+       "rating": 7.4
+     },
+     {
+       "title": "Pet Sematary",
+       "poster": "https://i.goojara.to/mb_003_3170.jpg",
+       "release_date": "1989-04-21",
+       "genres": [
+         "Horror",
+         "Thriller"
+       ],
+       "directors": [
+         "Mary Lambert"
+       ],
+       "description": "After tragedy strikes, a grieving father discovers an ancient burial ground behind his home with the power to raise the dead.",
+       "rating": 6.6
+     },
+     {
+       "title": "Misery",
+       "poster": "https://i.goojara.to/mb_002_2881.jpg",
+       "release_date": "1990-11-30",
+       "genres": [
+         "Drama",
+         "Thriller"
+       ],
+       "directors": [
+         "Rob Reiner"
+       ],
+       "description": "After a famous author is rescued from a car crash by a fan of his novels, he comes to realize that the care he is receiving is only the beginning of a nightmare of captivity and abuse.",
+       "rating": 7.8
+     },
+     {
+       "title": "Stand by Me",
+       "poster": "https://i.goojara.to/mb_003_3333.jpg",
+       "release_date": "1986-08-22",
+       "genres": [
+         "Adventure",
+         "Drama"
+       ],
+       "directors": [
+         "Rob Reiner"
+       ],
+       "description": "After the death of one of his friends, a writer recounts a childhood journey with his friends to find the body of a missing boy.",
+       "rating": 8.1
+     },
+     {
+       "title": "Doctor Sleep",
+       "poster": "https://i.goojara.to/mb_224_224579.jpg",
+       "release_date": "2019-11-08",
+       "genres": [
+         "Drama",
+         "Fantasy",
+         "Horror"
+       ],
+       "directors": [
+         "Mike Flanagan"
+       ],
+       "description": "Years following the events of 'The Shining,' a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
+       "rating": 7.3
+     },
+     {
+       "title": "The Mist",
+       "poster": "https://i.goojara.to/mb_000_469.jpg",
+       "release_date": "2007-11-21",
+       "genres": [
+         "Horror",
+         "Sci-Fi",
+         "Thriller"
+       ],
+       "directors": [
+         "Frank Darabont"
+       ],
+       "description": "A freak storm unleashes a species of bloodthirsty creatures on a small town, where a small band of citizens hole up in a supermarket and fight for their lives.",
+       "rating": 7.1
+     },
+     {
+       "title": "Dolores Claiborne",
+       "poster": "https://i.goojara.to/mb_009_9631.jpg",
+       "release_date": "1995-03-24",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Mystery"
+       ],
+       "directors": [
+         "Taylor Hackford"
+       ],
+       "description": "A big-city reporter travels to the small town where her mother has been arrested for the murder of an elderly woman that she works for as a maid.",
+       "rating": 7.4
+     },
+     {
+       "title": "The Fast and the Furious",
+       "poster": "https://i.goojara.to/mb_001_1538.jpg",
+       "release_date": "2001-06-22",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "Rob Cohen"
+       ],
+       "description": "Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.",
+       "rating": 6.8
+     },
+     {
+       "title": "2 Fast 2 Furious",
+       "poster": "https://i.goojara.to/mb_001_1390.jpg",
+       "release_date": "2003-06-06",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "John Singleton"
+       ],
+       "description": "Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.",
+       "rating": 5.9
+     },
+     {
+       "title": "The Fast and the Furious: Tokyo Drift",
+       "poster": "https://i.goojara.to/mb_000_945.jpg",
+       "release_date": "2006-06-16",
+       "genres": [
+         "Action",
+         "Crime",
+         "Thriller"
+       ],
+       "directors": [
+         "Justin Lin"
+       ],
+       "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+       "rating": 6.0
+     },
+     {
+       "title": "Fast & Furious",
+       "poster": "https://i.goojara.to/mb_000_99.jpg",
+       "release_date": "2009-04-03",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "Justin Lin"
+       ],
+       "description": "Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.",
+       "rating": 6.6
+     },
+     {
+       "title": "Fast Five",
+       "poster": "https://i.goojara.to/mb_005_5567.jpg",
+       "release_date": "2011-04-29",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "Justin Lin"
+       ],
+       "description": "Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.",
+       "rating": 7.3
+     },
+     {
+       "title": "Fast & Furious 6",
+       "poster": "https://i.goojara.to/mb_209_209492.jpg",
+       "release_date": "2013-05-24",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "Justin Lin"
+       ],
+       "description": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.",
+       "rating": 7.1
+     },
+     {
+       "title": "Furious 7",
+       "poster": "https://i.goojara.to/mb_217_217276.jpg",
+       "release_date": "2015-04-03",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Thriller"
+       ],
+       "directors": [
+         "James Wan"
+       ],
+       "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+       "rating": 7.1
+     },
+     {
+       "title": "The Fate of the Furious",
+       "poster": "https://i.goojara.to/mb_219_219145.jpg",
+       "release_date": "2017-04-14",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "directors": [
+         "F. Gary Gray"
+       ],
+       "description": "When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew faces trials that will test them as never before.",
+       "rating": 6.7
+     },
+     {
+       "title": "F9: The Fast Saga",
+       "poster": "https://i.goojara.to/mb_226_226917.jpg",
+       "release_date": "2021-06-25",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "directors": [
+         "Justin Lin"
+       ],
+       "description": "Cipher enlists the help of Jakob, Dom's younger brother, to take revenge on Dom and his team.",
+       "rating": 5.2
+     },
+     {
+       "title": "Stranger Things",
+       "poster": "https://i.goojara.to/tb_100_100202.jpg",
+       "release_date": "2016-07-15",
+       "genres": [
+         "Drama",
+         "Fantasy",
+         "Horror"
+       ],
+       "creators": [
+         "The Duffer Brothers"
+       ],
+       "description": "A group of kids in a small town uncover supernatural mysteries.",
+       "rating": 8.7,
+       "total_seasons": 4,
+       "total_episodes": 34
+     },
+     {
+       "title": "Game of Thrones",
+       "poster": "https://i.goojara.to/tb_002_2417.jpg",
+       "release_date": "2011-04-17",
+       "genres": [
+         "Drama",
+         "Fantasy",
+         "Adventure"
+       ],
+       "creators": [
+         "David Benioff",
+         "D. B. Weiss"
+       ],
+       "description": "Power struggles among noble families in the mythical land of Westeros.",
+       "rating": 9.3,
+       "total_seasons": 8,
+       "total_episodes": 73
+     },
+     {
+       "title": "Breaking Bad",
+       "poster": "https://i.goojara.to/tb_005_5273.jpg",
+       "release_date": "2008-01-20",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "creators": [
+         "Vince Gilligan"
+       ],
+       "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student.",
+       "rating": 9.5,
+       "total_seasons": 5,
+       "total_episodes": 62
+     },
+     {
+       "title": "Friends",
+       "poster": "https://i.goojara.to/tb_002_2832.jpg",
+       "release_date": "1994-09-22",
+       "genres": [
+         "Comedy",
+         "Romance"
+       ],
+       "creators": [
+         "David Crane",
+         "Marta Kauffman"
+       ],
+       "description": "Follows the personal and professional lives of six friends living in Manhattan.",
+       "rating": 8.9,
+       "total_seasons": 10,
+       "total_episodes": 236
+     },
+     {
+       "title": "The Simpsons",
+       "poster": "https://i.goojara.to/tb_000_254.jpg",
+       "release_date": "1989-12-17",
+       "genres": [
+         "Animation",
+         "Comedy"
+       ],
+       "creators": [
+         "Matt Groening"
+       ],
+       "description": "The satiric adventures of a working-class family in the misfit city of Springfield.",
+       "rating": 8.7,
+       "total_seasons": 33,
+       "total_episodes": 703
+     },
+     {
+       "title": "The Office",
+       "poster": "https://i.goojara.to/tb_000_794.jpg",
+       "release_date": "2005-03-24",
+       "genres": [
+         "Comedy"
+       ],
+       "creators": [
+         "Greg Daniels"
+       ],
+       "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+       "rating": 8.9,
+       "total_seasons": 9,
+       "total_episodes": 201
+     },
+     {
+       "title": "The Mandalorian",
+       "poster": "https://i.goojara.to/tb_186_186802.jpg",
+       "release_date": "2019-11-12",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy"
+       ],
+       "creators": [
+         "Jon Favreau"
+       ],
+       "description": "A lone bounty hunter makes his way through the outer reaches of the galaxy.",
+       "rating": 8.8,
+       "total_seasons": 2,
+       "total_episodes": 16
+     },
+     {
+       "title": "Rick and Morty",
+       "poster": "https://i.goojara.to/tb_093_93307.jpg",
+       "release_date": "2013-12-02",
+       "genres": [
+         "Sci-Fi",
+         "Adventure",
+         "Action",
+         "Animation",
+         "Comedy"
+       ],
+       "creators": [
+         "Justin Roiland",
+         "Dan Harmon"
+       ],
+       "description": "A sociopathic genius scientist who drags his inherently timid grandson on insanely dangerous adventures across the universe",
+       "rating": 9.1,
+       "total_seasons": 7,
+       "total_episodes": 69
+     },
+     {
+       "title": "Black Mirror",
+       "poster": "https://i.goojara.to/tb_009_9289.jpg",
+       "release_date": "2011-12-04",
+       "genres": [
+         "Drama",
+         "Sci-Fi",
+         "Thriller"
+       ],
+       "creators": [
+         "Charlie Brooker"
+       ],
+       "description": "A series of stand-alone dramas that are sharp, suspenseful, satirical tales that explore techno-paranoia.",
+       "rating": 8.8,
+       "total_seasons": 5,
+       "total_episodes": 22
+     },
+     {
+       "title": "The Witcher",
+       "poster": "https://i.goojara.to/tb_187_187608.jpg",
+       "release_date": "2019-12-20",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Lauren Schmidt Hissrich"
+       ],
+       "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+       "rating": 8.2,
+       "total_seasons": 2,
+       "total_episodes": 16
+     },
+     {
+       "title": "Daredevil",
+       "poster": "https://i.goojara.to/tb_092_92339.jpg",
+       "release_date": "2015-04-10",
+       "genres": [
+         "Action",
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "Drew Goddard"
+       ],
+       "description": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
+       "rating": 8.6,
+       "total_seasons": 3,
+       "total_episodes": 39
+     },
+     {
+       "title": "Jessica Jones",
+       "poster": "https://i.goojara.to/tb_094_94181.jpg",
+       "release_date": "2015-11-20",
+       "genres": [
+         "Action",
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "Melissa Rosenberg"
+       ],
+       "description": "Following a tragic end to her superhero career, Jessica Jones tries to rebuild her life as a private investigator.",
+       "rating": 7.9,
+       "total_seasons": 3,
+       "total_episodes": 39
+     },
+     {
+       "title": "Luke Cage",
+       "poster": "https://i.goojara.to/tb_143_143969.jpg",
+       "release_date": "2016-09-30",
+       "genres": [
+         "Action",
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "Cheo Hodari Coker"
+       ],
+       "description": "When a sabotaged experiment gives him super strength and unbreakable skin, Luke Cage becomes a fugitive attempting to rebuild his life in Harlem.",
+       "rating": 7.3,
+       "total_seasons": 2,
+       "total_episodes": 26
+     },
+     {
+       "title": "The Punisher",
+       "poster": "https://i.goojara.to/tb_160_160527.jpg",
+       "release_date": "2017-11-17",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "creators": [
+         "Steve Lightfoot"
+       ],
+       "description": "After the murder of his family, Marine veteran Frank Castle becomes the vigilante known as 'The Punisher.'",
+       "rating": 8.5,
+       "total_seasons": 2,
+       "total_episodes": 26
+     },
+     {
+       "title": "WandaVision",
+       "poster": "https://i.goojara.to/tb_210_210636.jpg",
+       "release_date": "2021-01-15",
+       "genres": [
+         "Action",
+         "Comedy",
+         "Drama"
+       ],
+       "creators": [
+         "Jac Schaeffer"
+       ],
+       "description": "Living idealized suburban lives, super-powered beings Wanda and Vision begin to suspect that everything is not as it seems.",
+       "rating": 8.0,
+       "total_seasons": 1,
+       "total_episodes": 9
+     },
+     {
+       "title": "Iron Fist",
+       "poster": "https://i.goojara.to/tb_143_143858.jpg",
+       "release_date": "2017-03-17",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "creators": [
+         "Scott Buck"
+       ],
+       "description": "A young man with mystical powers returns to New York City to fight crime and corruption as the Iron Fist.",
+       "rating": 6.5,
+       "total_seasons": 2,
+       "total_episodes": 23
+     },
+     {
+       "title": "Marvel's The Defenders",
+       "poster": "https://i.goojara.to/tb_154_154822.jpg",
+       "release_date": "2017-08-18",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "creators": [
+         "Douglas Petrie",
+         "Marco Ramirez"
+       ],
+       "description": "Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up to protect New York City.",
+       "rating": 7.3,
+       "total_seasons": 1,
+       "total_episodes": 8
+     },
+     {
+       "title": "Hawkeye",
+       "poster": "https://i.goojara.to/tb_223_223592.jpg",
+       "release_date": "2021-11-24",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "creators": [
+         "Jonathan Igla"
+       ],
+       "description": "Former Avenger Clint Barton teams up with Kate Bishop, a young archer, to save the city from an underground criminal conspiracy.",
+       "rating": 7.8,
+       "total_seasons": 1,
+       "total_episodes": 6
+     },
+     {
+       "title": "Marvel's Agent Carter",
+       "poster": "https://i.goojara.to/tb_091_91293.jpg",
+       "release_date": "2015-01-06",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "creators": [
+         "Christopher Markus",
+         "Stephen McFeely"
+       ],
+       "description": "In 1946, Peggy Carter must balance the routine office work at the Strategic Scientific Reserve (SSR) with secretly assisting Howard Stark in his missions.",
+       "rating": 7.9,
+       "total_seasons": 2,
+       "total_episodes": 18
+     },
+     {
+       "title": "Marvel's Runaways",
+       "poster": "https://i.goojara.to/tb_160_160590.jpg",
+       "release_date": "2017-11-21",
+       "genres": [
+         "Action",
+         "Drama",
+         "Crime"
+       ],
+       "creators": [
+         "Stephanie Savage",
+         "Josh Schwartz"
+       ],
+       "description": "Six teenagers discover that their parents are part of an evil criminal organization. They unite against their parents and set out to stop them.",
+       "rating": 7.0,
+       "total_seasons": 3,
+       "total_episodes": 33
+     },
+     {
+       "title": "Moon Knight",
+       "poster": "https://i.goojara.to/tb_226_226895.jpg",
+       "release_date": "2022-03-30",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Jeremy Slater"
+       ],
+       "description": "A former Marine with dissociative identity disorder gains powers and becomes the vigilante Moon Knight.",
+       "rating": 8.0,
+       "total_seasons": 1,
+       "total_episodes": 6
+     },
+     {
+       "title": "Brooklyn Nine-Nine",
+       "poster": "https://i.goojara.to/tb_086_86857.jpg",
+       "release_date": "2013-09-17",
+       "genres": [
+         "Comedy",
+         "Crime"
+       ],
+       "creators": [
+         "Daniel J. Goor",
+         "Michael Schur"
+       ],
+       "description": "Follows the hilarious antics of the detectives of the 99th precinct of the New York City Police Department.",
+       "rating": 8.4,
+       "total_seasons": 8,
+       "total_episodes": 153
+     },
+     {
+       "title": "The Good Place",
+       "poster": "https://i.goojara.to/tb_096_96199.jpg",
+       "release_date": "2016-09-19",
+       "genres": [
+         "Comedy",
+         "Drama",
+         "Fantasy"
+       ],
+       "creators": [
+         "Michael Schur"
+       ],
+       "description": "A woman realizes she hasn't been a good person and must navigate the afterlife to earn her place in 'The Good Place.'",
+       "rating": 8.2,
+       "total_seasons": 4,
+       "total_episodes": 53
+     },
+     {
+       "title": "Parks and Recreation",
+       "poster": "https://i.goojara.to/tb_007_7973.jpg",
+       "release_date": "2009-04-09",
+       "genres": [
+         "Comedy",
+         "Political"
+       ],
+       "creators": [
+         "Greg Daniels",
+         "Michael Schur"
+       ],
+       "description": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
+       "rating": 8.6,
+       "total_seasons": 7,
+       "total_episodes": 125
+     },
+     {
+       "title": "The Marvelous Mrs. Maisel",
+       "poster": "https://i.goojara.to/tb_175_175343.jpg",
+       "release_date": "2017-03-17",
+       "genres": [
+         "Comedy",
+         "Drama"
+       ],
+       "creators": [
+         "Amy Sherman-Palladino"
+       ],
+       "description": "A housewife in the 1950s decides to become a stand-up comic.",
+       "rating": 8.7,
+       "total_seasons": 4,
+       "total_episodes": 34
+     },
+     {
+       "title": "American Horror Story",
+       "poster": "https://i.goojara.to/tb_008_8842.jpg",
+       "release_date": "2011-10-05",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Thriller"
+       ],
+       "creators": [
+         "Ryan Murphy",
+         "Brad Falchuk"
+       ],
+       "description": "An anthology series that centers on different characters and locations, including a haunted house, an insane asylum, a witch coven, a freak show, and a hotel.",
+       "rating": 8.0,
+       "total_seasons": 10,
+       "total_episodes": 118
+     },
+     {
+       "title": "The Exorcist",
+       "poster": "https://i.goojara.to/tb_096_96254.jpg",
+       "release_date": "2016-09-23",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Mystery"
+       ],
+       "creators": [
+         "Jeremy Slater"
+       ],
+       "description": "Two priests work together to perform exorcisms and combat demonic possessions in a small town.",
+       "rating": 8.1,
+       "total_seasons": 2,
+       "total_episodes": 20
+     },
+     {
+       "title": "The Haunting of Hill House",
+       "poster": "https://i.goojara.to/tb_171_171824.jpg",
+       "release_date": "2018-10-12",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Mystery"
+       ],
+       "creators": [
+         "Mike Flanagan"
+       ],
+       "description": "A fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.",
+       "rating": 8.6,
+       "total_seasons": 1,
+       "total_episodes": 10
+     },
+     {
+       "title": "The Walking Dead",
+       "poster": "https://i.goojara.to/tb_000_951.jpg",
+       "release_date": "2010-10-31",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Thriller"
+       ],
+       "creators": [
+         "Frank Darabont"
+       ],
+       "description": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins and must lead a group of survivors to stay alive.",
+       "rating": 8.2,
+       "total_seasons": 11,
+       "total_episodes": 175
+     },
+     {
+       "title": "Bates Motel",
+       "poster": "https://i.goojara.to/tb_085_85751.jpg",
+       "release_date": "2013-03-18",
+       "genres": [
+         "Drama",
+         "Horror",
+         "Mystery"
+       ],
+       "creators": [
+         "Anthony Cipriano",
+         "Carlton Cuse",
+         "Kerry Ehrin"
+       ],
+       "description": "A contemporary prequel to Alfred Hitchcock's Psycho, depicting the life of Norman Bates and his mother Norma.",
+       "rating": 8.2,
+       "total_seasons": 5,
+       "total_episodes": 50
+     },
+     {
+       "title": "Suits",
+       "poster": "https://i.goojara.to/tb_005_5265.jpg",
+       "release_date": "2011-06-23",
+       "genres": [
+         "Comedy",
+         "Drama"
+       ],
+       "creators": [
+         "Aaron Korsh"
+       ],
+       "description": "A talented college dropout starts practicing law at a prestigious New York law firm despite having no legal degree.",
+       "rating": 8.5,
+       "total_seasons": 9,
+       "total_episodes": 134
+     },
+     {
+       "title": "Doctor Who",
+       "poster": "https://i.goojara.to/tb_002_2455.jpg",
+       "release_date": "2005-03-26",
+       "genres": [
+         "Adventure",
+         "Drama",
+         "Family"
+       ],
+       "creators": [
+         "Sydney Newman",
+         "C. E. Webber",
+         "Donald Wilson"
+       ],
+       "description": "The adventures of the Doctor, a Time Lord from the planet Gallifrey who travels through time and space in the TARDIS.",
+       "rating": 8.6,
+       "total_seasons": 13,
+       "total_episodes": 155
+     },
+     {
+       "title": "Invincible",
+       "poster": "https://i.goojara.to/tb_215_215136.jpg",
+       "release_date": "2021-03-26",
+       "genres": [
+         "Animation",
+         "Action",
+         "Adventure"
+       ],
+       "creators": [
+         "Simon Racioppa",
+         "Robert Kirkman"
+       ],
+       "description": "An ordinary teenager's father is the most powerful superhero on the planet. As he inherits his father's powers, he discovers the truth about his father's legacy.",
+       "rating": 8.8,
+       "total_seasons": 2,
+       "total_episodes": 12
+     },
+     {
+       "title": "The Flash",
+       "poster": "https://i.goojara.to/tb_090_90400.jpg",
+       "release_date": "2014-10-07",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Greg Berlanti",
+         "Geoff Johns",
+         "Andrew Kreisberg"
+       ],
+       "description": "After being struck by lightning, Barry Allen becomes the superhero known as the Flash and fights crime in Central City.",
+       "rating": 7.7,
+       "total_seasons": 8,
+       "total_episodes": 155
+     },
+     {
+       "title": "Hell's Kitchen",
+       "poster": "https://i.goojara.to/tb_000_589.jpg",
+       "release_date": "2005-05-30",
+       "genres": [
+         "Reality-TV"
+       ],
+       "creators": [
+         "Gordon Ramsay"
+       ],
+       "description": "Aspiring chefs compete for the opportunity to work in one of the world's finest restaurants under the guidance of renowned chef Gordon Ramsay.",
+       "rating": 7.0,
+       "total_seasons": 20,
+       "total_episodes": 298
+     },
+     {
+       "title": "Halo",
+       "poster": "https://i.goojara.to/tb_226_226710.jpg",
+       "release_date": "2022-03-24",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Sci-Fi"
+       ],
+       "creators": [
+         "Kyle Killen"
+       ],
+       "description": "An adaptation of the popular video game series, following the adventures of Master Chief as he battles against various threats.",
+       "rating": 7.2,
+       "total_seasons": 1,
+       "total_episodes": 9
+     },
+     {
+       "title": "Castlevania",
+       "poster": "https://i.goojara.to/tb_150_150576.jpg",
+       "release_date": "2017-07-07",
+       "genres": [
+         "Animation",
+         "Action",
+         "Adventure"
+       ],
+       "creators": [
+         "Warren Ellis"
+       ],
+       "description": "A vampire hunter fights to save a city besieged by an army of otherworldly creatures controlled by Dracula himself.",
+       "rating": 8.4,
+       "total_seasons": 4,
+       "total_episodes": 32
+     },
+     {
+       "title": "Assassin's Creed: Lineage",
+       "poster": "https://i.goojara.to/mb_218_218745.jpg",
+       "release_date": "2009-11-12",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Yves Simoneau"
+       ],
+       "description": "A three-part film that serves as a prequel to the video game Assassin's Creed II, following the story of Giovanni Auditore da Firenze.",
+       "rating": 7.7,
+       "total_seasons": 1,
+       "total_episodes": 3
+     },
+     {
+       "title": "Street Fighter: Assassin's Fist",
+       "poster": "https://i.goojara.to/mb_216_216745.jpg",
+       "release_date": "2014-05-23",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Joey Ansah",
+         "Christian Howard"
+       ],
+       "description": "A multi-layered series exploring the origin stories of iconic Street Fighter characters Ryu and Ken.",
+       "rating": 7.4,
+       "total_seasons": 1,
+       "total_episodes": 12
+     },
+     {
+       "title": "The Expanse",
+       "poster": "https://i.goojara.to/tb_128_128275.jpg",
+       "release_date": "2015-11-23",
+       "genres": [
+         "Drama",
+         "Mystery",
+         "Sci-Fi"
+       ],
+       "creators": [
+         "Mark Fergus",
+         "Hawk Ostby"
+       ],
+       "description": "A conspiracy threatens peace across the solar system as a disparate group of characters uncover the greatest conspiracy in human history.",
+       "rating": 8.5,
+       "total_seasons": 6,
+       "total_episodes": 62
+     },
+     {
+       "title": "BoJack Horseman",
+       "poster": "https://i.goojara.to/tb_156_156278.jpg",
+       "release_date": "2014-08-22",
+       "genres": [
+         "Animation",
+         "Comedy",
+         "Drama"
+       ],
+       "creators": [
+         "Raphael Bob-Waksberg"
+       ],
+       "description": "BoJack Horseman, a washed-up actor from the '90s, plans his big return to celebrity relevance with his tell-all autobiography.",
+       "rating": 8.7,
+       "total_seasons": 6,
+       "total_episodes": 77
+     },
+     {
+       "title": "Avatar: The Last Airbender",
+       "poster": "https://i.goojara.to/tb_008_8199.jpg",
+       "release_date": "2005-02-21",
+       "genres": [
+         "Animation",
+         "Action",
+         "Adventure",
+         "Family",
+         "Fantasy",
+         "Mystery"
+       ],
+       "creators": [
+         "Michael Dante DiMartino",
+         "Bryan Konietzko"
+       ],
+       "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar.",
+       "rating": 9.2,
+       "total_seasons": 3,
+       "total_episodes": 61
+     },
+     {
+       "title": "Sherlock",
+       "poster": "https://i.goojara.to/tb_009_9208.jpg",
+       "release_date": "2010-07-25",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Mystery",
+         "Thriller"
+       ],
+       "creators": [
+         "Mark Gatiss",
+         "Steven Moffat"
+       ],
+       "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+       "rating": 9.1,
+       "total_seasons": 4,
+       "total_episodes": 13
+     },
+     {
+       "title": "Peaky Blinders",
+       "poster": "https://i.goojara.to/tb_145_145482.jpg",
+       "release_date": "2013-09-12",
+       "genres": [
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "Steven Knight"
+       ],
+       "description": "A gangster family epic set in Birmingham, England, in 1919, just after the First World War.",
+       "rating": 8.8,
+       "total_seasons": 6,
+       "total_episodes": 30
+     },
+     {
+       "title": "Family Guy",
+       "poster": "https://i.goojara.to/tb_000_165.jpg",
+       "release_date": "1999-01-31",
+       "genres": [
+         "Animation",
+         "Comedy"
+       ],
+       "creators": [
+         "Seth MacFarlane",
+         "David Zuckerman"
+       ],
+       "description": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
+       "rating": 8.1,
+       "total_seasons": 21,
+       "total_episodes": 391
+     },
+     {
+       "title": "Squid Game",
+       "poster": "https://i.goojara.to/tb_221_221645.jpg",
+       "release_date": "2021-09-17",
+       "genres": [
+         "Action",
+         "Drama",
+         "Mystery",
+         "Thriller"
+       ],
+       "creators": [
+         "Hwang Dong-hyuk"
+       ],
+       "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits—with deadly high stakes.",
+       "rating": 8.8,
+       "total_seasons": 1,
+       "total_episodes": 9
+     },
+     {
+       "title": "Loki",
+       "poster": "https://i.goojara.to/tb_219_219088.jpg",
+       "release_date": "2021-06-09",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Fantasy",
+         "Sci-Fi"
+       ],
+       "creators": [
+         "Michael Waldron"
+       ],
+       "description": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of 'Avengers: Endgame.'",
+       "rating": 8.5,
+       "total_seasons": 2,
+       "total_episodes": 11
+     },
+     {
+       "title": "Harley Quinn",
+       "poster": "https://i.goojara.to/tb_187_187206.jpg",
+       "release_date": "2019-11-29",
+       "genres": [
+         "Animation",
+         "Action",
+         "Adventure",
+         "Comedy",
+         "Crime",
+         "Fantasy"
+       ],
+       "creators": [
+         "Justin Halpern",
+         "Dean Lorey",
+         "Patrick Schumacker"
+       ],
+       "description": "Harley Quinn has finally broken things off once and for all with the Joker and attempts to make it on her own as the criminal Queenpin of Gotham City.",
+       "rating": 8.5,
+       "total_seasons": 10,
+       "total_episodes": 40
+     },
+     {
+       "title": "The Sopranos",
+       "poster": "https://i.goojara.to/tb_003_3501.jpg",
+       "release_date": "1999-01-10",
+       "genres": [
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "David Chase"
+       ],
+       "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
+       "rating": 9.2,
+       "total_seasons": 6,
+       "total_episodes": 86
+     },
+     {
+       "title": "The Boys",
+       "poster": "https://i.goojara.to/tb_183_183318.jpg",
+       "release_date": "2019-07-25",
+       "genres": [
+         "Action",
+         "Comedy",
+         "Crime"
+       ],
+       "creators": [
+         "Eric Kripke",
+         "Evan Goldberg",
+         "Seth Rogen"
+       ],
+       "description": "In a world where superheroes embrace the darker side of their massive celebrity and fame, a group of vigilantes known as 'The Boys' sets out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+       "rating": 8.7,
+       "total_seasons": 3,
+       "total_episodes": 23
+     },
+     {
+       "title": "The Good Doctor",
+       "poster": "https://i.goojara.to/tb_156_156667.jpg",
+       "release_date": "2017-09-25",
+       "genres": [
+         "Drama"
+       ],
+       "creators": [
+         "David Shore"
+       ],
+       "description": "A young surgeon with autism and savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: Can a person who doesn't have the ability to relate to people actually save their lives?",
+       "rating": 8.1,
+       "total_seasons": 5,
+       "total_episodes": 79
+     },
+     {
+       "title": "Mr. Robot",
+       "poster": "https://i.goojara.to/tb_092_92963.jpg",
+       "release_date": "2015-06-24",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "creators": [
+         "Sam Esmail"
+       ],
+       "description": "A young programmer becomes involved in a cyber-anarchy group and must deal with the consequences.",
+       "rating": 8.5,
+       "total_seasons": 4,
+       "total_episodes": 45
+     },
+     {
+       "title": "Homeland",
+       "poster": "https://i.goojara.to/tb_008_8306.jpg",
+       "release_date": "2011-10-02",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Mystery"
+       ],
+       "creators": [
+         "Alex Gansa",
+         "Howard Gordon"
+       ],
+       "description": "A bipolar CIA operative becomes convinced a prisoner of war has been turned by al-Qaeda and is planning to carry out a terrorist attack on American soil.",
+       "rating": 8.3,
+       "total_seasons": 8,
+       "total_episodes": 96
+     },
+     {
+       "title": "The Wire",
+       "poster": "https://i.goojara.to/tb_009_9209.jpg",
+       "release_date": "2002-06-02",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "creators": [
+         "David Simon"
+       ],
+       "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
+       "rating": 9.3,
+       "total_seasons": 5,
+       "total_episodes": 60
+     },
+     {
+       "title": "Outlander",
+       "poster": "https://i.goojara.to/tb_090_90034.jpg",
+       "release_date": "2014-08-09",
+       "genres": [
+         "Drama",
+         "Fantasy",
+         "Romance"
+       ],
+       "creators": [
+         "Ronald D. Moore"
+       ],
+       "description": "An English combat nurse from 1945 is mysteriously swept back in time to 1743.",
+       "rating": 8.4,
+       "total_seasons": 6,
+       "total_episodes": 73
+     },
+     {
+       "title": "The Queen's Gambit",
+       "poster": "https://i.goojara.to/tb_204_204563.jpg",
+       "release_date": "2020-10-23",
+       "genres": [
+         "Drama"
+       ],
+       "creators": [
+         "Scott Frank",
+         "Allan Scott"
+       ],
+       "description": "Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s USA. But, child stardom comes at a price.",
+       "rating": 8.6,
+       "total_seasons": 1,
+       "total_episodes": 7
+     },
+     {
+       "title": "True Detective",
+       "poster": "https://i.goojara.to/tb_087_87798.jpg",
+       "release_date": "2014-01-12",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Mystery"
+       ],
+       "creators": [
+         "Nic Pizzolatto"
+       ],
+       "description": "Seasonal anthology series in which police investigations unearth personal and professional secrets of those involved, both within and outside the law.",
+       "rating": 9.0,
+       "total_seasons": 3,
+       "total_episodes": 24
+     },
+     {
+       "title": "The Handmaid's Tale",
+       "poster": "https://i.goojara.to/tb_145_145671.jpg",
+       "release_date": "2017-04-26",
+       "genres": [
+         "Drama",
+         "Sci-Fi",
+         "Thriller"
+       ],
+       "creators": [
+         "Bruce Miller"
+       ],
+       "description": "In a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+       "rating": 8.4,
+       "total_seasons": 5,
+       "total_episodes": 55
+     },
+     {
+       "title": "Fargo",
+       "poster": "https://i.goojara.to/tb_089_89268.jpg",
+       "release_date": "2014-04-15",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Thriller"
+       ],
+       "creators": [
+         "Noah Hawley"
+       ],
+       "description": "Various chronicles of deception, intrigue, and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.",
+       "rating": 8.9,
+       "total_seasons": 4,
+       "total_episodes": 41
+     },
+     {
+       "title": "Vikings",
+       "poster": "https://i.goojara.to/tb_085_85415.jpg",
+       "release_date": "2013-03-03",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Drama"
+       ],
+       "creators": [
+         "Michael Hirst"
+       ],
+       "description": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore and raid the distant shores across the ocean.",
+       "rating": 8.5,
+       "total_seasons": 6,
+       "total_episodes": 89
+     },
+     {
+       "title": "The Umbrella Academy",
+       "poster": "https://i.goojara.to/tb_177_177871.jpg",
+       "release_date": "2019-02-15",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Comedy"
+       ],
+       "creators": [
+         "Jeremy Slater",
+         "Steve Blackman"
+       ],
+       "description": "A family of former child heroes, now grown apart, must reunite to continue to protect the world.",
+       "rating": 8.0,
+       "total_seasons": 3,
+       "total_episodes": 30
+     },
+     {
+       "title": "Better Call Saul",
+       "poster": "https://i.goojara.to/tb_091_91640.jpg",
+       "release_date": "2015-02-08",
+       "genres": [
+         "Crime",
+         "Drama"
+       ],
+       "creators": [
+         "Vince Gilligan",
+         "Peter Gould"
+       ],
+       "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the time before he established his strip-mall law office in Albuquerque, New Mexico.",
+       "rating": 8.7,
+       "total_seasons": 6,
+       "total_episodes": 63
+     },
+     {
+       "title": "The 100",
+       "poster": "https://i.goojara.to/tb_088_88570.jpg",
+       "release_date": "2014-03-19",
+       "genres": [
+         "Drama",
+         "Mystery",
+         "Sci-Fi"
+       ],
+       "creators": [
+         "Jason Rothenberg"
+       ],
+       "description": "Set ninety-seven years after a nuclear war has destroyed civilization, when a spaceship housing humanity's lone survivors sends one hundred juvenile delinquents back to Earth, in hopes of possibly re-populating the planet.",
+       "rating": 7.6,
+       "total_seasons": 7,
+       "total_episodes": 100
+     },
+     {
+       "title": "Lucifer",
+       "poster": "https://i.goojara.to/tb_093_93248.jpg",
+       "release_date": "2016-01-25",
+       "genres": [
+         "Crime",
+         "Drama",
+         "Fantasy"
+       ],
+       "creators": [
+         "Tom Kapinos"
+       ],
+       "description": "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity.",
+       "rating": 8.1,
+       "total_seasons": 6,
+       "total_episodes": 77
+     },
+     {
+       "title": "Arrow",
+       "poster": "https://i.goojara.to/tb_084_84146.jpg",
+       "release_date": "2012-10-10",
+       "genres": [
+         "Action",
+         "Adventure",
+         "Crime"
+       ],
+       "creators": [
+         "Greg Berlanti",
+         "Marc Guggenheim",
+         "Andrew Kreisberg"
+       ],
+       "description": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
+       "rating": 7.5,
+       "total_seasons": 8,
+       "total_episodes": 170
+     }
    ]
-}
+ }
