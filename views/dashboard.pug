@@ -8,6 +8,7 @@ block content
     if watched && watched.length > 0
         each m in watched   
             div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                img(style="padding-top: 20px;" src=m.poster, alt='poster')
                 h3
                     a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
                 p(style='color: #ddd;') #{m.description}
@@ -19,6 +20,7 @@ block content
     if watching && watching.length > 0
         each m in watching 
             div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                img(style="padding-top: 20px;" src=m.poster, alt='poster')
                 h3
                     a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
                 p(style='color: #ddd;') #{m.description}
@@ -30,6 +32,7 @@ block content
     if plantowatch && plantowatch.length > 0
         each m in plantowatch  
             div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+                img(style="padding-top: 20px;" src=m.poster, alt='poster')
                 h3
                     a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
                 p(style='color: #ddd;') #{m.description}

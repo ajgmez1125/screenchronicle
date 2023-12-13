@@ -69,16 +69,23 @@ const Media = require('./models/media')
 const media = require('./media.json')
 
 //This adds all the stuff from the media.json file into the actual database
-media.movies.forEach((movie) => {
-  let media = new Media({
-    title: movie.title,
-    genres: movie.genres,
-    release_date: movie.release_date,
-    directors: movie.directors,
-    description: movie.description,
-    rating: movie.rating
-  })
-  media.save()
+Media.find({})
+.then((movies) => {
+  if(movies.length == 0)
+  {
+    media.movies.forEach((movie) => {
+      let media = new Media({
+        title: movie.title,
+        poster: movie.poster,
+        genres: movie.genres,
+        release_date: movie.release_date,
+        directors: movie.directors,
+        description: movie.description,
+        rating: movie.rating
+      })
+      media.save()
+    })    
+  }
 })
 
 

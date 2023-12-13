@@ -3,8 +3,27 @@ extends layout
 block content
   .container
     h1 #{media.title}
-    h3 #{media.release_date}
-    p #{media.description}
+    img(src=media.poster, alt='poster')
+    h4 Release Date: #{media.release_date}
+    h4 Summary: #{media.description}
+    h4 rating: #{media.rating}
+
+    if media.directors && media.directors.length > 0
+      h4 directors
+      ul
+        each director in media.directors
+          li= director
+
+
+    if media.genres && media.genres.length > 0
+      h4 Genres
+      ul
+        each genre in media.genres
+          li= genre
+
+
+    br
+    h3 Watching Status
 
     if status != 'watched'
       a(href = `/media/${media._id}/add/watched`) Watched 

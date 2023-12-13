@@ -5,6 +5,10 @@ let mediaSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    poster: {
+        type: String,
+        required: true
+    },
     release_date: {
         type: String,
         required: true

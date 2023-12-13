@@ -7,9 +7,10 @@ block content
   if media && media.length > 0
     each m in media  
       div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px; border-radius: 25px')
+        img(style="padding-top: 20px;" src=m.poster, alt='poster')
         h3
           a(href=`/media/${m._id}`, style='color: #ffd700; text-decoration: none;') #{m.title}
-        p(style='color: #ddd;') #{m.description}
+        //- p(style='color: #ddd;') #{m.description}
   else 
     div(style='border: 1px solid #ffd700; text-align: center; padding: 10px; margin: 10px;')
       h3(style='color: #ffd700;') There was an error loading from the database...
