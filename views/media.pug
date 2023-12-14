@@ -10,13 +10,13 @@ block content
       h4(style='color: #ddd;') Rating: #{media.rating}
 
       if media.directors && media.directors.length > 0
-        h4(style='color: #ffd700;') Directors
+        h3(style='color: #ffd700;') Directors
         ul
           each director in media.directors
             li(style='color: #ddd;')= director
 
       if media.genres && media.genres.length > 0
-        h4(style='color: #ffd700;') Genres
+        h3(style='color: #ffd700;') Genres
         ul
           each genre in media.genres
             li(style='color: #ddd;')= genre
@@ -49,21 +49,23 @@ block content
 
         br
         br
+        h2(style='color: #ffd700; text-align: left;') Reviews:
         form(action=`/media/${media._id}/addReview`, method='POST', class='review-form' style='text-align: left;')
-          label(for='reviewString', style='color: #ffd700;') Review:
-          textarea(name='reviewString', rows='4', cols='50', required, style='width: 100%; padding: 10px; font-size: 16px; border: 1px solid #4d4d4d; border-radius: 5px; background-color: #333; color: #fff; margin-bottom: 10px;')
-          br
           label(for='rating', style='color: #ffd700;') Rating (1-10):
           input(type='number', name='rating', min='1', max='10', style='width: 100%; padding: 10px; font-size: 16px; border: 1px solid #4d4d4d; border-radius: 5px; background-color: #333; color: #fff; margin-bottom: 10px;')
+          br
+          label(for='reviewString', style='color: #ffd700;') Comments:
+          textarea(name='reviewString', rows='4', cols='50', required, style='width: 100%; padding: 10px; font-size: 16px; border: 1px solid #4d4d4d; border-radius: 5px; background-color: #333; color: #fff; margin-bottom: 10px;')
           br
           button(type='submit', style='background-color: #ffd700; color: #333; padding: 10px 20px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer;') Add Review 
         br
         br
-        h3(style='color: #ffd700; text-align: left;') Reviews:
+
 
       ul(style='text-align: left;')
-        each review in reviews 
-          li(style='color: #ddd;') 
-            p(style='color: #ddd;') Review: #{review.reviewString} 
+        each review in reviews  
+            p(style='color: #ffd700;') #{review.user._id}
             p(style='color: #ddd;') Rating: #{review.rating}
-            p(style='color: #ddd;') User: #{review.user._id}
+            p(style='color: #ddd;') #{review.reviewString} 
+            br
+            
