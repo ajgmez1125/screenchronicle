@@ -28,7 +28,19 @@ router.get('/:id', (req, res) => {
         }
         Review.find({media:{$eq: media._id}})
         .then((reviews)=>{
-            res.render('media', {media: media, status: status, reviews: reviews});
+            var promiseArr = []
+            reviews.forEach((review)=>{
+                promiseArr.push(
+                    User.findById(review.user._id)
+                    .then((user)=>{
+                        review.username = user.username
+                    })
+                )
+            })
+            Promise.all(promiseArr)
+            .then(()=>{
+                res.render('media', {media: media, status: status, reviews: reviews});
+            })
         })
     })
     .catch((err) => {
