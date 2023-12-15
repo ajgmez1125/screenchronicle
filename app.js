@@ -35,7 +35,9 @@ app.use(session({
 app.use(passport.initialize())
 app.use(passport.session())
 
-mongoose.connect("mongodb://127.0.0.1:27017/screenchronicle")
+let uri = "mongodb+srv://dbUser2217:DbUserPassword2217@cluster0.oqrz1xd.mongodb.net/"
+
+mongoose.connect(uri)
 const db = mongoose.connection
 
 db.on('error', () => {
@@ -69,26 +71,26 @@ const Media = require('./models/media')
 const media = require('./media.json')
 
 //This adds all the stuff from the media.json file into the actual database
-Media.find({})
-.then((movies) => {
-  if(movies.length == 0)
-  {
-    media.movies.forEach((movie) => {
-      let media = new Media({
-        title: movie.title,
-        poster: movie.poster,
-        genres: movie.genres,
-        release_date: movie.release_date,
-        directors: movie.directors,
-        description: movie.description,
-        rating: movie.rating,
-        total_seasons: movie.total_seasons,
-        total_episodes: movie.total_episodes
-      })
-      media.save()
-    })    
-  }
-})
+// Media.find({})
+// .then((movies) => {
+//   if(movies.length == 0)
+//   {
+//     media.movies.forEach((movie) => {
+//       let media = new Media({
+//         title: movie.title,
+//         poster: movie.poster,
+//         genres: movie.genres,
+//         release_date: movie.release_date,
+//         directors: movie.directors,
+//         description: movie.description,
+//         rating: movie.rating,
+//         total_seasons: movie.total_seasons,
+//         total_episodes: movie.total_episodes
+//       })
+//       media.save()
+//     })    
+//   }
+// })
 
 
 // error handler
