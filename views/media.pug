@@ -66,5 +66,8 @@ block content
             p(style='color: #ffd700;') #{review.username}
             p(style='color: #ddd;') Rating: #{review.rating}
             p(style='color: #ddd;') #{review.reviewString} 
+            if isAuthenticated 
+              if user._id.equals(review.user._id)
+                a(href=`${review._id}/deleteReview`) Delete
             br
             

@@ -75,6 +75,26 @@ router.post('/:id/addReview', (req, res) => {
     }
 });
 
+router.get('/:id/deleteReview', (req,res) => {
+    Review.findById(req.params.id)
+    .then((review) => {
+        if(review.user.equals(req.user._id))
+        {
+            Review.findByIdAndDelete(review._id)
+            .then(() => {
+                res.redirect(`/media/${review.media}`)
+            })
+        }
+        else
+        {
+            res.redirect(`/media/${review.media}`)
+        }
+    })
+    .catch((err) => {
+        res.send('There was an issue deleting your review ' + err.message)
+    })
+})
+
 router.get('/:id/add/:progress', (req,res) => {
     if(req.isAuthenticated())
     {
