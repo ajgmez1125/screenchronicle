@@ -37,7 +37,7 @@ app.use(passport.session())
 
 let uri = "mongodb+srv://dbUser2217:DbUserPassword2217@cluster0.oqrz1xd.mongodb.net/"
 
-mongoose.connect(uri)
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
 
 db.on('error', () => {
